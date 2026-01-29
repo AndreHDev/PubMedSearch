@@ -1,0 +1,748 @@
+=== ABSTRACT 1 ===
+Title: Functional annotation of non-coding sequence variants
+ID: ritchie_functional_2014
+DOI: 10.1038/nmeth.2832
+Year: 2014
+Journal: Nature methods
+
+Identifying functionally relevant variants against the background of ubiquitous genetic variation is a major challenge in human genetics. For variants that fall in protein-coding regions our understanding of the genetic code and splicing allow us to identify likely candidates, but interpreting variants that fall outside of genic regions is more difficult. Here we present a new tool, GWAVA, which supports prioritisation of non-coding variants by integrating a range of annotations.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 2 ===
+Title: \textit{{De} novo} pattern discovery enables robust assessment of functional consequences of non-coding variants
+ID: yang_novo_2019
+DOI: 10.1093/bioinformatics/bty826
+Year: 2019
+Journal: Bioinformatics
+
+Motivation: Given the complexity of genome regions, prioritize the functional effects of noncoding variants remains a challenge. Although several frameworks have been proposed for the evaluation of the functionality of non-coding variants, most of them used ‘black boxes’ methods that simplify the task as the pathogenicity/benign classiﬁcation problem, which ignores the distinct regulatory mechanisms of variants and leads to less desirable performance. In this study, we developed DVAR, an unsupervised framework that leverage various biochemical and evolutionary evidence to distinguish the gene regulatory categories of variants and assess their comprehensive functional impact simultaneously.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 3 ===
+Title: A {SPECTRAL} {APPROACH} {INTEGRATING} {FUNCTIONAL} {GENOMIC} {ANNOTATIONS} {FOR} {CODING} {AND} {NONCODING} {VARIANTS}
+ID: ionita-laza_spectral_2016
+DOI: 10.1038/ng.3477
+Year: 2016
+Journal: Nature genetics
+
+Over the past few years, substantial effort has been put into the functional annotation of variation in human genome sequence. Such annotations can play a critical role in identifying putatively causal variants among the abundant natural variation that occurs at a locus of interest. The main challenges in using these various annotations include their large numbers, and their diversity. Here we develop an unsupervised approach to integrate these different annotations into one measure of functional importance (Eigen), that, unlike most existing methods, is not based on any labeled training data. We show that the resulting meta-score has better discriminatory ability using disease associated and putatively benign variants from published studies (in both coding and noncoding regions) compared with the recently proposed CADD score. Across varied scenarios, the Eigen score performs generally better than any single individual annotation, representing a powerful single functional score that can be incorporated in fine-mapping studies.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 4 ===
+Title: Fast, scalable prediction of deleterious noncoding variants from functional and population genomic data
+ID: huang_fast_2017
+DOI: 10.1038/ng.3810
+Year: 2017
+Journal: Nature genetics
+
+Many genetic variants that influence phenotypes of interest are located outside of protein-coding genes, yet existing methods for identifying such variants have poor predictive power. Here, we introduce a new computational method, called LINSIGHT, that substantially improves the prediction of noncoding nucleotide sites at which mutations are likely to have deleterious fitness consequences, and which therefore are likely to be phenotypically important. LINSIGHT combines a generalized linear model for functional genomic data with a probabilistic model of molecular evolution. The method is fast and highly scalable, enabling it to exploit the “Big Data” available in modern genomics. We show that LINSIGHT outperforms the best available methods in identifying human noncoding variants associated with inherited diseases. In addition, we apply LINSIGHT to an atlas of human enhancers and show that the fitness consequences at enhancers depend on cell type, tissue specificity, and constraints at associated promoters.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 5 ===
+Title: Comparison and integration of deleteriousness prediction methods for nonsynonymous {SNVs} in whole exome sequencing studies
+ID: dong_comparison_2015
+DOI: 10.1093/hmg/ddu733
+Year: 2015
+Journal: Human Molecular Genetics
+
+Accurate deleteriousness prediction for nonsynonymous variants is crucial for distinguishing pathogenic mutations from background polymorphisms in whole exome sequencing (WES) studies. Although many deleteriousness prediction methods have been developed, their prediction results are sometimes inconsistent with each other and their relative merits are still unclear in practical applications. To address these issues, we comprehensively evaluated the predictive performance of 18 current deleteriousness-scoring methods, including 11 function prediction scores (PolyPhen-2, SIFT, MutationTaster, Mutation Assessor, FATHMM, LRT, PANTHER, PhD-SNP, SNAP, SNPs\&GO and MutPred), 3 conservation scores (GERP++, SiPhy and PhyloP) and 4 ensemble scores (CADD, PON-P, KGGSeq and CONDEL). We found that FATHMM and KGGSeq had the highest discriminative power among independent scores and ensemble scores, respectively. Moreover, to ensure unbiased performance evaluation of these prediction scores, we manually collected three distinct testing datasets, on which no current prediction scores were tuned. In addition, we developed two new ensemble scores that integrate nine independent scores and allele frequency. Our scores achieved the highest discriminative power compared with all the deleteriousness prediction scores tested and showed low false-positive prediction rate for benign yet rare nonsynonymous variants, which demonstrated the value of combining information from multiple orthologous approaches. Finally, to facilitate variant prioritization in WES studies, we have pre-computed our ensemble scores for 87 347 044 possible variants in the whole-exome and made them publicly available through the ANNOVAR software and the dbNSFP database.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 6 ===
+Title: {REVEL}: {An} {Ensemble} {Method} for {Predicting} the {Pathogenicity} of {Rare} {Missense} {Variants}
+ID: ioannidis_revel_2016
+DOI: 10.1016/j.ajhg.2016.08.016
+Year: 2016
+Journal: American Journal of Human Genetics
+
+The vast majority of coding variants are rare, and assessment of the contribution of rare variants to complex traits is hampered by low statistical power and limited functional data. Improved methods for predicting the pathogenicity of rare coding variants are needed to facilitate the discovery of disease variants from exome sequencing studies. We developed REVEL (rare exome variant ensemble learner), an ensemble method for predicting the pathogenicity of missense variants on the basis of individual tools: MutPred, FATHMM, VEST, PolyPhen, SIFT, PROVEAN, MutationAssessor, MutationTaster, LRT, GERP, SiPhy, phyloP, and phastCons. REVEL was trained with recently discovered pathogenic and rare neutral missense variants, excluding those previously used to train its constituent tools. When applied to two independent test sets, REVEL had the best overall performance (p {\textless} 10−12) as compared to any individual tool and seven ensemble methods: MetaSVM, MetaLR, KGGSeq, Condel, CADD, DANN, and Eigen. Importantly, REVEL also had the best performance for distinguishing pathogenic from rare neutral variants with allele frequencies {\textless}0.5\%. The area under the receiver operating characteristic curve (AUC) for REVEL was 0.046–0.182 higher in an independent test set of 935 recent SwissVar disease variants and 123,935 putatively neutral exome sequencing variants and 0.027–0.143 higher in an independent test set of 1,953 pathogenic and 2,406 benign variants recently reported in ClinVar than the AUCs for other ensemble methods. We provide pre-computed REVEL scores for all possible human missense variants to facilitate the identification of pathogenic variants in the sea of rare variants discovered as sequencing studies expand in scale.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 7 ===
+Title: A general framework for estimating the relative pathogenicity of human genetic variants
+ID: kircher_general_2014
+DOI: 10.1038/ng.2892
+Year: 2014
+Journal: Nature genetics
+
+Our capacity to sequence human genomes has exceeded our ability to interpret genetic variation. Current genomic annotations tend to exploit a single information type (e.g. conservation) and/or are restricted in scope (e.g. to missense changes). Here, we describe Combined Annotation Dependent Depletion (CADD), a framework that objectively integrates many diverse annotations into a single, quantitative score. We implement CADD as a support vector machine trained to differentiate 14.7 million high-frequency human derived alleles from 14.7 million simulated variants. We pre-compute “C-scores” for all 8.6 billion possible human single nucleotide variants and enable scoring of short insertions/deletions. C-scores correlate with allelic diversity, annotations of functionality, pathogenicity, disease severity, experimentally measured regulatory effects, and complex trait associations, and highly rank known pathogenic variants within individual genomes. The ability of CADD to prioritize functional, deleterious, and pathogenic variants across many functional categories, effect sizes and genetic architectures is unmatched by any current annotation.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 8 ===
+Title: Ontological analysis of gene expression data: current tools, limitations, and open problems
+ID: khatri_ontological_2005
+DOI: 10.1093/bioinformatics/bti565
+Year: 2005
+Journal: Bioinformatics
+
+Summary: Independent of the platform and the analysis methods used, the result of a microarray experiment is, in most cases, a list of differentially expressed genes. An automatic ontological analysis approach has been recently proposed to help with the biological interpretation of such results. Currently, this approach is the de facto standard for the secondary analysis of high throughput experiments and a large number of tools have been developed for this purpose. We present a detailed comparison of 14 such tools using the following criteria: scope of the analysis, visualization capabilities, statistical model(s) used, correction for multiple comparisons, reference microarrays available, installation issues and sources of annotation data. This detailed analysis of the capabilities of these tools will help researchers choose the most appropriate tool for a given type of analysis. More importantly, in spite of the fact that this type of analysis has been generally adopted, this approach has several important intrinsic drawbacks. These drawbacks are associated with all tools discussed and represent conceptual limitations of the current state-of-the-art in ontological analysis. We propose these as challenges for the next generation of secondary data analysis tools.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 9 ===
+Title: Genetic {Factors} of the {Disease} {Course} {After} {Sepsis}: {Rare} {Deleterious} {Variants} {Are} {Predictive}
+ID: taudien_genetic_2016
+DOI: 10.1016/j.ebiom.2016.08.037
+Year: 2016
+Journal: EBioMedicine
+
+Kestler paper, “zusammenschrauben” von seletnen gen varianten? -{\textgreater} Ohne Klassen vorher zu kennen(?) -{\textgreater} doch base classifier müssen trainiert werden
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 10 ===
+Title: Rare variant association studies: {Significance}, methods, and applications in chronic pain studies
+ID: jahangiri_esfahani_rare_2025
+DOI: 10.1016/j.joca.2024.12.006
+Year: 2025
+Journal: Osteoarthritis and Cartilage
+
+Rare genetic variants, characterized by their low frequency in a population, have emerged as essential components in the study of complex disease genetics. The biology of rare variants underscores their signiﬁcance, as they can exert profound effects on phenotypic variation and disease susceptibility. Recent advancements in sequencing technologies have yielded the availability of large-scale sequencing data such as the UK Biobank whole-exome sequencing (WES) cohort empowered researchers to conduct rare variant association studies (RVASs). This review paper discusses the signiﬁcance of rare variants, available methodologies, and applications. We provide an overview of RVASs, emphasizing their relevance in unraveling the genetic architecture of complex diseases with special focus on chronic pain and Arthritis. Additionally, we discuss the strengths and limitations of various rare variant association testing methods, outlining a typical pipeline for conducting rare variant association. This pipeline encompasses crucial steps such as quality control of WES data, rare variant annotation, and association testing. It serves as a comprehensive guide for researchers in the ﬁeld of chronic pain diseases interested in rare variant association studies in large-scale sequencing datasets like the UK Biobank WES cohort. Lastly, we discuss how the identiﬁed variants can be further investigated through detailed experimental studies in animal models to elucidate their functional impact and underlying mechanisms.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 11 ===
+Title: {ANNOVAR}: functional annotation of genetic variants from high-throughput sequencing data
+ID: wang_annovar_2010
+DOI: 10.1093/nar/gkq603
+Year: 2010
+Journal: Nucleic Acids Research
+
+High-throughput sequencing platforms are generating massive amounts of genetic variation data for diverse genomes, but it remains a challenge to pinpoint a small subset of functionally important variants. To fill these unmet needs, we developed the ANNOVAR tool to annotate single nucleotide variants (SNVs) and insertions/deletions, such as examining their functional consequence on genes, inferring cytogenetic bands, reporting functional importance scores, finding variants in conserved regions, or identifying variants reported in the 1000 Genomes Project and dbSNP. ANNOVAR can utilize annotation databases from the UCSC Genome Browser or any annotation data set conforming to Generic Feature Format version 3 (GFF3). We also illustrate a ‘variants reduction’ protocol on 4.7 million SNVs and indels from a human genome, including two causal mutations for Miller syndrome, a rare recessive disease. Through a stepwise procedure, we excluded variants that are unlikely to be causal, and identified 20 candidate genes including the causal gene. Using a desktop computer, ANNOVAR requires 4 min to perform gene-based annotation and 15 min to perform variants reduction on 4.7 million variants, making it practical to handle hundreds of human genomes in a day. ANNOVAR is freely available at http://www. openbioinformatics.org/annovar/.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 12 ===
+Title: {SIFT}: predicting amino acid changes that affect protein function
+ID: ng_sift_2003
+DOI: 10.1093/nar/gkg509
+Year: 2003
+Journal: Nucleic Acids Research
+
+Single nucleotide polymorphism (SNP) studies and random mutagenesis projects identify amino acid substitutions in protein-coding regions. Each substitution has the potential to affect protein function. SIFT (Sorting Intolerant From Tolerant) is a program that predicts whether an amino acid substitution affects protein function so that users can prioritize substitutions for further study. We have shown that SIFT can distinguish between functionally neutral and deleterious amino acid changes in mutagenesis studies and on human polymorphisms. SIFT is available at http://blocks.fhcrc.org/sift/SIFT.html.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 13 ===
+Title: The {Ensembl} {Variant} {Effect} {Predictor}
+ID: mclaren_ensembl_2016
+DOI: 10.1186/s13059-016-0974-4
+Year: 2016
+Journal: Genome Biology
+
+The Ensembl Variant Effect Predictor is a powerful toolset for the analysis, annotation, and prioritization of genomic variants in coding and non-coding regions. It provides access to an extensive collection of genomic annotation, with a variety of interfaces to suit different requirements, and simple options for configuring and extending analysis. It is open source, free to use, and supports full reproducibility of results. The Ensembl Variant Effect Predictor can simplify and accelerate variant interpretation in a wide range of study designs.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 14 ===
+Title: A method and server for predicting damaging missense mutations
+ID: adzhubei_method_2010
+DOI: 10.1038/nmeth0410-248
+Year: 2010
+Journal: Nature Methods
+
+PolyPhen
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 15 ===
+Title: Partitioning heritability by functional annotation using genome-wide association summary statistics
+ID: reprogen_consortium_partitioning_2015
+DOI: 10.1038/ng.3404
+Year: 2015
+Journal: Nature Genetics
+
+ S-LDSC 
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 16 ===
+Title: Annotation of functional variation in personal genomes using {RegulomeDB}
+ID: boyle_annotation_2012
+DOI: 10.1101/gr.137323.112
+Year: 2012
+Journal: Genome Research
+
+As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies (GWAS) identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, RegulomeDB, which guides interpretation of regulatory variants in the human genome. RegulomeDB includes high-throughput, experimental data sets from ENCODE and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a GWAS where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 17 ===
+Title: Annotating and prioritizing human non-coding variants with {RegulomeDB} v.2
+ID: dong_annotating_2023
+DOI: 10.1038/s41588-023-01365-3
+Year: 2023
+Journal: Nature Genetics
+
+RegulomeDB v2
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 18 ===
+Title: Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale
+ID: li_dynamic_2020
+DOI: 10.1038/s41588-020-0676-4
+Year: 2020
+Journal: Nature Genetics
+
+Large-scale whole genome sequencing (WGS) studies have enabled the analysis of rare variants (RVs) associated with complex phenotypes. Commonly used RV association tests (RVATs) have limited scope to leverage variant functions. We propose STAAR (variant-Set Test for Association using Annotation infoRmation), a scalable and powerful RVAT method that effectively incorporates both variant categories and multiple complementary annotations using a dynamic weighting scheme. For the latter, we introduce “annotation Principal Components”, multidimensional summaries of insilicovariant annotations. STAAR accounts for population structure and relatedness, and is scalable for analyzing very large cohort and biobank WGS studies of continuous and dichotomous traits. We applied STAAR to identify RVs associated with four lipid traits in 12,316 discovery samples and 17,822 replication samples from the Trans-Omics for Precision Medicine program. We discovered and replicated novel RV associations, including disruptive missense RVs of NPC1L1and an intergenic region near APOC1P1associated with lowdensity lipoprotein cholesterol.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 19 ===
+Title: A framework for detecting noncoding rare variant associations of large-scale whole-genome sequencing studies
+ID: li_framework_2023
+Year: 2023
+
+STAARPipeline
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 20 ===
+Title: {TADA}—a machine learning tool for functional annotation-based prioritisation of pathogenic {CNVs}
+ID: hertzberg_tadamachine_2022
+DOI: 10.1186/s13059-022-02631-z
+Year: 2022
+Journal: Genome Biology
+
+Few methods have been developed to investigate copy number variants (CNVs) based on their predicted pathogenicity. We introduce TADA, a method to prioritise pathogenic CNVs through assisted manual filtering and automated classification, based on an extensive catalogue of functional annotation supported by rigourous enrichment analysis. We demonstrate that our classifiers are able to accurately predict pathogenic CNVs, outperforming current alternative methods, and produce a well-calibrated pathogenicity score. Our results suggest that functional annotation-based prioritisation of pathogenic CNVs is a promising approach to support clinical diagnostics and to further the understanding of mechanisms controlling the disease impact of larger genomic alterations.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 21 ===
+Title: An {Evaluation} of {Statistical} {Approaches} to {Rare} {Variant} {Analysis} in {Genetic} {Association} {Studies}
+ID: morris_evaluation_2010
+DOI: 10.1002/gepi.20450
+Year: 2010
+Journal: Genetic Epidemiology
+
+Genome-wide association (GWA) studies have proved to be extremely successful in identifying novel common polymorphisms contributing effects to the genetic component underlying complex traits. Nevertheless, one source of, as yet, undiscovered genetic determinants of complex traits are those mediated through the effects of rare variants. With the increasing availability of large-scale re-sequencing data for rare variant discovery, we have developed a novel statistical method for the detection of complex trait associations with these loci, based on searching for accumulations of minor alleles within the same functional unit. We have undertaken simulations to evaluate strategies for the identification of rare variant associations in population-based genetic studies when data are available from re-sequencing discovery efforts or from commercially available GWA chips. Our results demonstrate that methods based on accumulations of rare variants discovered through re-sequencing offer substantially greater power than conventional analysis of GWA data, and thus provide an exciting opportunity for future discovery of genetic determinants of complex traits. Genet. Epidemiol. 34: 188–193, 2010. © 2009 Wiley-Liss, Inc.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 22 ===
+Title: Genome-wide association studies
+ID: uffelmann_genome-wide_2021
+DOI: 10.1038/s43586-021-00056-9
+Year: 2021
+Journal: Nature Reviews Methods Primers
+
+Genome-wide association studies (GWAS) test hundreds of thousands of genetic variants across many genomes to find those statistically associated with a specific trait or disease. This methodology has generated a myriad of robust associations for a range of traits and diseases, and the number of associated variants is expected to grow steadily as GWAS sample sizes increase. GWAS results have a range of applications, such as gaining insight into a phenotype’s underlying biology, estimating its heritability, calculating genetic correlations, making clinical risk predictions, informing drug development programmes and inferring potential causal relationships between risk factors and health outcomes. In this Primer, we provide the reader with an introduction to GWAS, explaining their statistical basis and how they are conducted, describe state-of-the art approaches and discuss limitations and challenges, concluding with an overview of the current and future applications for GWAS results.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 23 ===
+Title: Strategies in {Aggregation} {Tests} for {Rare} {Variants}
+ID: rajabli_strategies_2023
+DOI: 10.1002/cpz1.931
+Year: 2023
+Journal: Current Protocols
+
+Genome-wide association studies (GWAS) successfully identified numerous common variants involved in complex diseases, but only limited heritability was explained by these findings. Advances in high-throughput sequencing technology made it possible to assess the contribution of rare variants in common diseases. However, study of rare variants introduces challenges due to low frequency of rare variants. Well-established common variant methods were underpowered to identify the rare variants in GWAS. To address this challenge, several new methods have been developed to examine the role of rare variants in complex diseases. These approaches are based on testing the aggregate effect of multiple rare variants in a predefined genetic region. Provided here is an overview of statistical approaches and the protocols explaining step-by-step analysis of aggregations tests with the hands-on experience using R scripts in four categories: burden tests, adaptive burden tests, variance-component tests, and combined tests. Also explained are the concepts of rare variants, permutation tests, kernel methods, and genetic variant annotation. At the end we discuss relevant topics of bioinformatics tools for annotation, family-based design of rare-variant analysis, population stratification adjustment, and meta-analysis. © 2023 The Authors. Current Protocols published by Wiley Periodicals LLC.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 24 ===
+Title: Methods for {Collapsing} {Multiple} {Rare} {Variants} in {Whole}‐{Genome} {Sequence} {Data}
+ID: sung_methods_2014
+DOI: 10.1002/gepi.21820
+Year: 2014
+Journal: Genetic Epidemiology
+
+Genetic Analysis Workshop 18 provided whole-genome sequence data in a pedigree-based sample and longitudinal phenotype data for hypertension and related traits, presenting an excellent opportunity for evaluating analysis choices. We summarize the nine contributions to the working group on collapsing methods, which evaluated various approaches for the analysis of multiple rare variants. One contributor defined a variant prioritization scheme, whereas the remaining eight contributors evaluated statistical methods for association analysis. Six contributors chose the gene as the genomic region for collapsing variants, whereas three contributors chose nonoverlapping sliding windows across the entire genome. Statistical methods spanned most of the published methods, including well-established burden tests, variance-components-type tests, and recently developed hybrid approaches. Lesser known methods, such as functional principal components analysis, higher criticism, and homozygosity association, and some newly introduced methods were also used. We found that performance of these methods depended on the characteristics of the genomic region, such as effect size and direction of variants under consideration. Except for MAP4 and FLT3, the performance of all statistical methods to identify rare casual variants was disappointingly poor, providing overall power almost identical to the type I error. This poor performance may have arisen from a combination of (1) small sample size, (2) small effects of most of the causal variants, explaining a small fraction of variance, (3) use of incomplete annotation information, and (4) linkage disequilibrium between causal variants in a gene and noncausal variants in nearby genes. Our findings demonstrate challenges in analyzing rare variants identified from sequence data.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 25 ===
+Title: Improving the assessment of the outcome of nonsynonymous {SNVs} with a consensus deleteriousness score, {Condel}
+ID: gonzalez-perez_improving_2011
+DOI: 10.1016/j.ajhg.2011.03.004
+Year: 2011
+Journal: American Journal of Human Genetics
+
+Several large ongoing initiatives that profit from next-generation sequencing technologies have driven--and in coming years will continue to drive--the emergence of long catalogs of missense single-nucleotide variants (SNVs) in the human genome. As a consequence, researchers have developed various methods and their related computational tools to classify these missense SNVs as probably deleterious or probably neutral polymorphisms. The outputs produced by each of these computational tools are of different natures and thus difficult to compare and integrate. Taking advantage of the possible complementarity between different tools might allow more accurate classifications. Here we propose an effective approach to integrating the output of some of these tools into a unified classification; this approach is based on a weighted average of the normalized scores of the individual methods (WAS). (In this paper, the approach is illustrated for the integration of five tools.) We show that this WAS outperforms each individual method in the task of classifying missense SNVs as deleterious or neutral. Furthermore, we demonstrate that this WAS can be used not only for classification purposes (deleterious versus neutral mutation) but also as an indicator of the impact of the mutation on the functionality of the mutant protein. In other words, it may be used as a deleteriousness score of missense SNVs. Therefore, we recommend the use of this WAS as a consensus deleteriousness score of missense mutations (Condel).
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 26 ===
+Title: {FATHMM}-{XF}: accurate prediction of pathogenic point mutations via extended features
+ID: rogers_fathmm-xf_2018
+DOI: 10.1093/bioinformatics/btx536
+Year: 2018
+Journal: Bioinformatics
+
+Summary: We present FATHMM-XF, a method for predicting pathogenic point mutations in the human genome. Drawing on an extensive feature set, FATHMM-XF outperforms competitors on benchmark tests, particularly in non-coding regions where the majority of pathogenic mutations are likely to be found.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 27 ===
+Title: Predicting the {Functional}, {Molecular}, and {Phenotypic} {Consequences} of {Amino} {Acid} {Substitutions} using {Hidden} {Markov} {Models}
+ID: shihab_predicting_2013
+DOI: 10.1002/humu.22225
+Year: 2013
+Journal: Human Mutation
+
+The rate at which nonsynonymous single nucleotide polymorphisms (nsSNPs) are being identified in the human genome is increasing dramatically owing to advances in whole-genome/whole-exome sequencing technologies. Automated methods capable of accurately and reliably distinguishing between pathogenic and functionally neutral nsSNPs are therefore assuming ever-increasing importance. Here, we describe the Functional Analysis Through Hidden Markov Models (FATHMM) software and server: a species-independent method with optional species-specific weightings for the prediction of the functional effects of protein missense variants. Using a model weighted for human mutations, we obtained performance accuracies that outperformed traditional prediction methods (i.e., SIFT, PolyPhen, and PANTHER) on two separate benchmarks. Furthermore, in one benchmark, we achieve performance accuracies that outperform current state-of-the-art prediction methods (i.e., SNPs\&GO and MutPred). We demonstrate that FATHMM can be efficiently applied to high-throughput/large-scale human and nonhuman genome sequencing projects with the added benefit of phenotypic outcome associations. To illustrate this, we evaluated nsSNPs in wheat (Triticum spp.) to identify some of the important genetic variants responsible for the phenotypic differences introduced by intense selection during domestication. A Web-based implementation of FATHMM, including a high-throughput batch facility and a downloadable standalone package, is available at http://fathmm.biocompute.org.uk.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 28 ===
+Title: {MutationTaster2021}
+ID: steinhaus_mutationtaster2021_2021
+DOI: 10.1093/nar/gkab266
+Year: 2021
+Journal: Nucleic Acids Research
+
+Here we present an update to MutationTaster, our DNA variant effect prediction tool. The new version uses a different prediction model and attains higher accuracy than its predecessor, especially for rare benign variants. In addition, we have integrated many sources of data that only became available after the last release (such as gnomAD and ExAC pLI scores) and changed the splice site prediction model. To more easily assess the relevance of detected known disease mutations to the clinical phenotype of the patient, MutationTaster now provides information on the diseases they cause. Further changes represent a major overhaul of the interfaces to increase userfriendliness whilst many changes under the hood have been designed to accelerate the processing of uploaded VCF ﬁles. We also offer an API for the rapid automated query of smaller numbers of variants from within other software. MutationTaster2021 integrates our disease mutation search engine, MutationDistiller, to prioritise variants from VCF ﬁles using the patient’s clinical phenotype. The novel version is available at https://www.genecascade.org/ MutationTaster2021/. This website is free and open to all users and there is no login requirement.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 29 ===
+Title: Population genetic models of {GERP} scores suggest pervasive turnover of constrained sites across mammalian evolution
+ID: huber_population_2020
+DOI: 10.1371/journal.pgen.1008827
+Year: 2020
+Journal: PLOS Genetics
+
+Comparative genomic approaches have been used to identify sites where mutations are under purifying selection and of functional consequence by searching for sequences that are conserved across distantly related species. However, the performance of these approaches has not been rigorously evaluated under population genetic models. Further, short-lived functional elements may not leave a footprint of sequence conservation across many species. We use simulations to study how one measure of conservation, the Genomic Evolutionary Rate Profiling (GERP) score, relates to the strength of selection (Nes). We show that the GERP score is related to the strength of purifying selection. However, changes in selection coefficients or functional elements over time (i.e. functional turnover) can strongly affect the GERP distribution, leading to unexpected relationships between GERP and Nes. Further, we show that for functional elements that have a high turnover rate, adding more species to the analysis does not necessarily increase statistical power. Finally, we use the distribution of GERP scores across the human genome to compare models with and without turnover of sites where mutations are under purifying selection. We show that mutations in 4.51\% of the noncoding human genome are under purifying selection and that most of this sequence has likely experienced changes in selection coefficients throughout mammalian evolution. Our work reveals limitations to using comparative genomic approaches to identify deleterious mutations. Commonly used GERP score thresholds miss over half of the noncoding sites in the human genome where mutations are under purifying selection.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 30 ===
+Title: Distribution and intensity of constraint in mammalian genomic sequence
+ID: cooper_distribution_2005
+DOI: 10.1101/gr.3577405
+Year: 2005
+Journal: Genome Research
+
+Comparisons of orthologous genomic DNA sequences can be used to characterize regions that have been subject to purifying selection and are enriched for functional elements. We here present the results of such an analysis on an alignment of sequences from 29 mammalian species. The alignment captures ∼3.9 neutral substitutions per site and spans ∼1.9 Mbp of the human genome. We identify constrained elements from 3 bp to over 1 kbp in length, covering ∼5.5\% of the human locus. Our estimate for the total amount of nonexonic constraint experienced by this locus is roughly twice that for exonic constraint. Constrained elements tend to cluster, and we identify large constrained regions that correspond well with known functional elements. While constraint density inversely correlates with mobile element density, we also show the presence of unambiguously constrained elements overlapping mammalian ancestral repeats. In addition, we describe a number of elements in this region that have undergone intense purifying selection throughout mammalian evolution, and we show that these important elements are more numerous than previously thought. These results were obtained with Genomic Evolutionary Rate Profiling (GERP), a statistically rigorous and biologically transparent framework for constrained element identification. GERP identifies regions at high resolution that exhibit nucleotide substitution deficits, and measures these deficits as “rejected substitutions.” Rejected substitutions reflect the intensity of past purifying selection and are used to rank and characterize constrained elements. We anticipate that GERP and the types of analyses it facilitates will provide further insights and improved annotation for the human genome as mammalian genome sequence data become richer.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 31 ===
+Title: Detection of nonneutral substitution rates on mammalian phylogenies
+ID: pollard_detection_2010
+DOI: 10.1101/gr.097857.109
+Year: 2010
+Journal: Genome Research
+
+Methods for detecting nucleotide substitution rates that are faster or slower than expected under neutral drift are widely used to identify candidate functional elements in genomic sequences. However, most existing methods consider either reductions (conservation) or increases (acceleration) in rate but not both, or assume that selection acts uniformly across the branches of a phylogeny. Here we examine the more general problem of detecting departures from the neutral rate of substitution in either direction, possibly in a clade-specific manner. We consider four statistical, phylogenetic tests for addressing this problem: a likelihood ratio test, a score test, a test based on exact distributions of numbers of substitutions, and the genomic evolutionary rate profiling (GERP) test. All four tests have been implemented in a freely available program called phyloP. Based on extensive simulation experiments, these tests are remarkably similar in statistical power. With 36 mammalian species, they all appear to be capable of fairly good sensitivity with low false-positive rates in detecting strong selection at individual nucleotides, moderate selection in 3-bp elements, and weaker or clade-specific selection in longer elements. By applying phyloP to mammalian multiple alignments from the ENCODE project, we shed light on patterns of conservation/acceleration in known and predicted functional elements, approximate fractions of sites subject to constraint, and differences in clade-specific selection in the primate and glires clades. We also describe new “Conservation” tracks in the UCSC Genome Browser that display both phyloP and phastCons scores for genome-wide alignments of 44 vertebrate species.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 32 ===
+Title: Prediction tools for assessing functional impacts of gene mutations in {Clear} {Cell} {Renal} {Cell} {Carcinoma}: {A} comparative study
+ID: yang_prediction_2025
+DOI: 10.1016/j.compbiomed.2025.110187
+Year: 2025
+Journal: Computers in Biology and Medicine
+
+Renal cell carcinoma (RCC) is a well-known malignancy characterized by specific gene mutations that elevate its occurrence. It can be categorized into clear cell RCC (ccRCC), papillary RCC, and chromophobe RCC, which account for approximately 85 \% of all primary RCC cases. The mutations typically involve single-nucleotide variants (SNVs) that lead to amino acid substitutions, which influence various biological functions, including gene expression. Therefore, predicting the functional consequences of RCC-related single-nucleotide polymorphisms (SNPs), including substitutions, insertions, deletions, and duplications, is crucial for the effective clinical management of RCC. In recent years, the accessibility and popularity of tools for predicting SNP functional variations have grown, especially in research concerning the potential risks associated with key gene mutations in cancer. Accordingly, this study focused on commonly mutated genes in ccRCC, namely VHL, BAP1, PBRM1, and SETD2. Public data from sources such as The Cancer Genome Atlas and the National Center for Biotechnology Information were used to identify 61 gene mutation positions. Nine nonsynonymous mutation prediction tools were used for analysis, namely SIFT, Polyphen-2, Mutation Assessor, Fathmm, MutPred, CHASM, Revel, Provean, and SNP\&GO. The tools were evaluated by their statistical performance, prediction distribution, and receiver operating characteristic curves. The three tools with the highest accuracy for predicting the functional consequences of mutations in the four frequently mutated genes associated with ccRCC were SIFT (accuracy of 0.75), Provean (0.7), and Polyphen-2 (0.69). These findings offer valuable insights into predicting ccRCC-related gene mutation effects, but further research and validation are essential to support their clinical applications.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 33 ===
+Title: Predicting the functional impact of protein mutations: application to cancer genomics
+ID: reva_predicting_2011
+DOI: 10.1093/nar/gkr407
+Year: 2011
+Journal: Nucleic Acids Research
+
+As large-scale re-sequencing of genomes reveals many protein mutations, especially in human cancer tissues, prediction of their likely functional impact becomes important practical goal. Here, we introduce a new functional impact score (FIS) for amino acid residue changes using evolutionary conservation patterns. The information in these patterns is derived from aligned families and sub-families of sequence homologs within and between species using combinatorial entropy formalism. The score performs well on a large set of human protein mutations in separating disease-associated variants (∼19 200), assumed to be strongly functional, from common polymorphisms (∼35 600), assumed to be weakly functional (area under the receiver operating characteristic curve of ∼0.86). In cancer, using recurrence, multiplicity and annotation for ∼10 000 mutations in the COSMIC database, the method does well in assigning higher scores to more likely functional mutations (‘drivers’). To guide experimental prioritization, we report a list of about 1000 top human cancer genes frequently mutated in one or more cancer types ranked by likely functional impact; and, an additional 1000 candidate cancer genes with rare but likely functional mutations. In addition, we estimate that at least 5\% of cancer-relevant mutations involve switch of function, rather than simply loss or gain of function.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 34 ===
+Title: Inferring the molecular and phenotypic impact of amino acid variants with {MutPred2}
+ID: pejaver_inferring_2020
+DOI: 10.1038/s41467-020-19669-x
+Year: 2020
+Journal: Nature Communications
+
+Abstract
+Identifying pathogenic variants and underlying functional alterations is challenging. To this end, we introduce MutPred2, a tool that improves the prioritization of pathogenic amino acid substitutions over existing methods, generates molecular mechanisms potentially causative of disease, and returns interpretable pathogenicity score distributions on individual genomes. Whilst its prioritization performance is state-of-the-art, a distinguishing feature of MutPred2 is the probabilistic modeling of variant impact on specific aspects of protein structure and function that can serve to guide experimental studies of phenotype-altering variants. We demonstrate the utility of MutPred2 in the identification of the structural and functional mutational signatures relevant to Mendelian disorders and the prioritization of de novo mutations associated with complex neurodevelopmental disorders. We then experimentally validate the functional impact of several variants identified in patients with such disorders. We argue that mechanism-driven studies of human inherited disease have the potential to significantly accelerate the discovery of clinically actionable variants.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 35 ===
+Title: Functional annotations improve the predictive score of human disease-related mutations in proteins
+ID: calabrese_functional_2009
+DOI: 10.1002/humu.21047
+Year: 2009
+Journal: Human Mutation
+
+Single nucleotide polymorphisms (SNPs) are the simplest and most frequent form of human DNA variation, also valuable as genetic markers of disease susceptibility. The most investigated SNPs are missense mutations resulting in residue substitutions in the protein. Here we propose SNPs\&GO, an accurate method that, starting from a protein sequence, can predict whether a mutation is disease related or not by exploiting the protein functional annotation. The scoring efficiency of SNPs\&GO is as high as 82\%, with a Matthews correlation coefficient equal to 0.63 over a wide set of annotated nonsynonymous mutations in proteins, including 16,330 disease-related and 17,432 neutral polymorphisms. SNPs\&GO collects in unique framework information derived from protein sequence, evolutionary information, and function as encoded in the Gene Ontology terms, and outperforms other available predictive methods. Hum Mutat 30:1–8, 2009. © 2009 Wiley-Liss, Inc.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 36 ===
+Title: Large-scale gene function analysis with the {PANTHER} classification system
+ID: mi_large-scale_2013
+DOI: 10.1038/nprot.2013.092
+Year: 2013
+Journal: Nature Protocols
+
+PANTHER Classification System (www.pantherdb.org) is a comprehensive system that combines gene function, ontology, pathways and statistical analysis tools to enable biologists to analyze large-scale genome-wide experimental data. The system is built with 82 complete genomes organized into gene families and subfamilies, and their evolutionary relationships are captured in phylogenetic trees, multiple sequence alignments and statistical models (Hidden-Markov Models, or HMMs). Genes are classified by their function in several different ways: families and subfamilies are annotated with ontology terms (Gene Ontology and PANTHER Protein Class), and sequences are assigned to PANTHER pathways. The PANTHER website includes a suite of tools to allow users to browse and query gene functions, and analyze large-scale experimental data with a number of statistical tests. It is widely used by bench scientists, bioinformaticians, computer scientists and systems biologists. In the 2013 release of PANTHER (v.8.0), besides the update of the data content, the website interface was redesigned to improve the user experience and analytical capability. This protocol will provide a detailed description of how to analyze genomewide experimental data in the PANTHER Classification System.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 37 ===
+Title: {PANTHER}: {A} {Library} of {Protein} {Families} and {Subfamilies} {Indexed} by  {Function}
+ID: thomas_panther_2003
+DOI: 10.1101/gr.772403
+Year: 2003
+Journal: Genome Research
+
+In the genomic era, one of the fundamental goals is to characterize the  function of proteins on a large scale. We describe a method, PANTHER, for  relating protein sequence relationships to function relationships in a robust  and accurate way. PANTHER is composed of two main components: the PANTHER  library (PANTHER/LIB) and the PANTHER index (PANTHER/X). PANTHER/LIB is a  collection of “books,” each representing a protein family as a  multiple sequence alignment, a Hidden Markov Model (HMM), and a family tree.  Functional divergence within the family is represented by dividing the tree  into subtrees based on shared function, and by subtree HMMs. PANTHER/X is an  abbreviated ontology for summarizing and navigating molecular functions and  biological processes associated with the families and subfamilies. We apply  PANTHER to three areas of active research. First, we report the size and  sequence diversity of the families and subfamilies, characterizing the  relationship between sequence divergence and functional divergence across a  wide range of protein families. Second, we use the PANTHER/X ontology to give  a high-level representation of gene function across the human and mouse  genomes. Third, we use the family HMMs to rank missense single nucleotide  polymorphisms (SNPs), on a database-wide scale, according to their likelihood  of affecting protein function.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 38 ===
+Title: {GAVIN}: {Gene}-{Aware} {Variant} {INterpretation} for medical sequencing
+ID: van_der_velde_gavin_2017
+DOI: 10.1186/s13059-016-1141-7
+Year: 2017
+Journal: Genome Biology
+
+We present Gene-Aware Variant INterpretation (GAVIN), a new method that accurately classifies variants for clinical diagnostic purposes. Classifications are based on gene-specific calibrations of allele frequencies from the ExAC database, likely variant impact using SnpEff, and estimated deleteriousness based on CADD scores for {\textgreater}3000 genes. In a benchmark on 18 clinical gene sets, we achieve a sensitivity of 91.4\% and a specificity of 76.9\%. This accuracy is unmatched by 12 other tools. We provide GAVIN as an online MOLGENIS service to annotate VCF files and as an open source executable for use in bioinformatic pipelines. It can be found at http://molgenis.org/gavin.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 39 ===
+Title: {DANN}: a deep learning approach for annotating the pathogenicity of genetic variants
+ID: quang_dann_2015
+DOI: 10.1093/bioinformatics/btu703
+Year: 2015
+Journal: Bioinformatics (Oxford, England)
+
+Annotating genetic variants, especially non-coding variants, for the purpose of identifying pathogenic variants remains a challenge. Combined annotation-dependent depletion (CADD) is an algorithm designed to annotate both coding and non-coding variants, and has been shown to outperform other annotation algorithms. CADD trains a linear kernel support vector machine (SVM) to differentiate evolutionarily derived, likely benign, alleles from simulated, likely deleterious, variants. However, SVMs cannot capture non-linear relationships among the features, which can limit performance. To address this issue, we have developed DANN. DANN uses the same feature set and training data as CADD to train a deep neural network (DNN). DNNs can capture non-linear relationships among features and are better suited than SVMs for problems with a large number of samples and features. We exploit Compute Unified Device Architecture-compatible graphics processing units and deep learning techniques such as dropout and momentum training to accelerate the DNN training. DANN achieves about a 19\% relative reduction in the error rate and about a 14\% relative increase in the area under the curve (AUC) metric over CADD's SVM methodology.
+AVAILABILITY AND IMPLEMENTATION: All data and source code are available at https://cbcl.ics.uci.edu/public\_data/DANN/.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 40 ===
+Title: Predicting the {Functional} {Effect} of {Amino} {Acid} {Substitutions} and {Indels}
+ID: choi_predicting_2012
+DOI: 10.1371/journal.pone.0046688
+Year: 2012
+Journal: PLOS ONE
+
+As next-generation sequencing projects generate massive genome-wide sequence variation data, bioinformatics tools are being developed to provide computational predictions on the functional effects of sequence variations and narrow down the search of casual variants for disease phenotypes. Different classes of sequence variations at the nucleotide level are involved in human diseases, including substitutions, insertions, deletions, frameshifts, and non-sense mutations. Frameshifts and non-sense mutations are likely to cause a negative effect on protein function. Existing prediction tools primarily focus on studying the deleterious effects of single amino acid substitutions through examining amino acid conservation at the position of interest among related sequences, an approach that is not directly applicable to insertions or deletions. Here, we introduce a versatile alignment-based score as a new metric to predict the damaging effects of variations not limited to single amino acid substitutions but also in-frame insertions, deletions, and multiple amino acid substitutions. This alignment-based score measures the change in sequence similarity of a query sequence to a protein sequence homolog before and after the introduction of an amino acid variation to the query sequence. Our results showed that the scoring scheme performs well in separating disease-associated variants (n = 21,662) from common polymorphisms (n = 37,022) for UniProt human protein variations, and also in separating deleterious variants (n = 15,179) from neutral variants (n = 17,891) for UniProt non-human protein variations. In our approach, the area under the receiver operating characteristic curve (AUC) for the human and non-human protein variation datasets is ∼0.85. We also observed that the alignment-based score correlates with the deleteriousness of a sequence variation. In summary, we have developed a new algorithm, PROVEAN (Protein Variation Effect Analyzer), which provides a generalized approach to predict the functional effects of protein sequence variations including single or multiple amino acid substitutions, and in-frame insertions and deletions. The PROVEAN tool is available online at http://provean.jcvi.org.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 41 ===
+Title: Predicting effects of noncoding variants with deep learning–based sequence model
+ID: zhou_predicting_2015
+DOI: 10.1038/nmeth.3547
+Year: 2015
+Journal: Nature methods
+
+Identifying functional effects of noncoding variants is a major challenge in human genetics. To predict the noncoding-variant effects de novo from sequence, we developed a deep learning–based algorithmic framework, DeepSEA (http://deepsea.princeton.edu/), that directly learns a regulatory sequence code from large-scale chromatin-profiling data, enabling prediction of chromatin effects of sequence alterations with single-nucleotide sensitivity. We further used this capability to improve prioritization of functional variants including expression quantitative trait loci (eQTLs) and disease-associated variants.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 42 ===
+Title: {FunSeq2}: a framework for prioritizing noncoding regulatory variants in cancer
+ID: fu_funseq2_2014
+DOI: 10.1186/s13059-014-0480-5
+Year: 2014
+Journal: Genome Biology
+
+Identification of noncoding drivers from thousands of somatic alterations in a typical tumor is a difficult and unsolved problem. We report a computational framework, FunSeq2, to annotate and prioritize these mutations. The framework combines an adjustable data context integrating large-scale genomics and cancer resources with a streamlined variant-prioritization pipeline. The pipeline has a weighted scoring system combining: inter- and intra-species conservation; loss- and gain-of-function events for transcription-factor binding; enhancer-gene linkages and network centrality; and per-element recurrence across samples. We further highlight putative drivers with information specific to a particular sample, such as differential expression. FunSeq2 is available from funseq2.gersteinlab.org.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 43 ===
+Title: Physicochemical constraint violation by missense substitutions mediates impairment of protein function and disease severity
+ID: stone_physicochemical_2005
+DOI: 10.1101/gr.3804205
+Year: 2005
+Journal: Genome Research
+
+We find that the degree of impairment of protein function by missense variants is predictable by comparative sequence analysis alone. The applicable range of impairment is not confined to binary predictions that distinguish normal from deleterious variants, but extends continuously from mild to severe effects. The accuracy of predictions is strongly dependent on sequence variation and is highest when diverse orthologs are available. High predictive accuracy is achieved by quantification of the physicochemical characteristics in each position of the protein, based on observed evolutionary variation. The strong relationship between physicochemical characteristics of a missense variant and impairment of protein function extends to human disease. By using four diverse proteins for which sufficient comparative sequence data are available, we show that grades of disease, or likelihood of developing cancer, correlate strongly with physicochemical constraint violation by causative amino acid variants.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 44 ===
+Title: {CHASM} and {SNVBox}: toolkit for detecting biologically important single nucleotide mutations in cancer
+ID: wong_chasm_2011
+DOI: 10.1093/bioinformatics/btr357
+Year: 2011
+Journal: Bioinformatics
+
+Summary: Thousands of cancer exomes are currently being sequenced, yielding millions of non-synonymous single nucleotide variants (SNVs) of possible relevance to disease etiology. Here, we provide a software toolkit to prioritize SNVs based on their predicted contribution to tumorigenesis. It includes a database of precomputed, predictive features covering all positions in the annotated human exome and can be used either stand-alone or as part of a larger variant discovery pipeline.Availability and Implementation: MySQL database, source code and binaries freely available for academic/government use at http://wiki.chasmsoftware.org, Source in Python and C++. Requires 32 or 64-bit Linux system (tested on Fedora Core 8,10,11 and Ubuntu 10), 2.5*≤ Python \&lt;3.0*, MySQL server \&gt;5.0, 60 GB available hard disk space (50 MB for software and data files, 40 GB for MySQL database dump when uncompressed), 2 GB of RAM.Contact:  karchin@jhu.eduSupplementary Information:  Supplementary data are available at Bioinformatics online.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 45 ===
+Title: Prioritization of driver mutations in pancreatic cancer using cancer-specific high-throughput annotation of somatic mutations ({CHASM})
+ID: carter_prioritization_2010
+DOI: 10.4161/cbt.10.6.12537
+Year: 2010
+Journal: Cancer Biology \& Therapy
+
+Over 20,000 genes were recently sequenced in a series of 24 pancreatic cancers. We applied CHASM (Cancer-specific High-throughput Annotation of Somatic Mutations) to 963 of the missense somatic missense mutations discovered in these 24 cancers. CHASM identified putative driver mutations (false discovery rate ≤0.3) in three known pancreatic cancer driver genes (P53, SMAD4, CDKN2A). An additional 15 genes with putative driver mutations include genes coding for kinases (PIK3CG, DGKA, STK33, TTK and PRKCG), for cell cycle related proteins (NEK8), and for proteins involved in cell adhesion (CMAS, PCDHB2). These and other mutations identified by CHASM point to potential "driver genes" in pancreatic cancer that should be prioritized for additional follow-up.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 46 ===
+Title: Large-scale analysis of non-synonymous coding region single nucleotide polymorphisms
+ID: clifford_large-scale_2004
+DOI: 10.1093/bioinformatics/bth029
+Year: 2004
+Journal: Bioinformatics
+
+Motivation: Single nucleotide polymorphisms (SNPs) are the most common form of genetic variant in humans. SNPs causing amino acid substitutions are of particular interest as candidates for loci affecting susceptibility to complex diseases, such as diabetes and hypertension. To efficiently screen SNPs for disease association, it is important to distinguish neutral variants from deleterious ones.Results: We describe the use of Pfam protein motif models and the HMMER program to predict whether amino acid changes in conserved domains are likely to affect protein function. We find that the magnitude of the change in the HMMER E-value caused by an amino acid substitution is a good predictor of whether it is deleterious. We provide internet-accessible display tools for a genomewide collection of SNPs, including 7391 distinct non-synonymous coding region SNPs in 2683 genes.Availability:  http://lpgws.nci.nih.gov/cgi-bin/GeneViewer.cgi
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 47 ===
+Title: {sumSTAAR}: {A} flexible framework for gene-based association studies using {GWAS} summary statistics
+ID: belonogova_sumstaar_2022
+DOI: 10.1371/journal.pcbi.1010172
+Year: 2022
+Journal: PLoS computational biology
+
+Gene-based association analysis is an effective gene-mapping tool. Many gene-based methods have been proposed recently. However, their power depends on the underlying genetic architecture, which is rarely known in complex traits, and so it is likely that a combination of such methods could serve as a universal approach. Several frameworks combining different gene-based methods have been developed. However, they all imply a fixed set of methods, weights and functional annotations. Moreover, most of them use individual phenotypes and genotypes as input data. Here, we introduce sumSTAAR, a framework for gene-based association analysis using summary statistics obtained from genome-wide association studies (GWAS). It is an extended and modified version of STAAR framework proposed by Li and colleagues in 2020. The sumSTAAR framework offers a wider range of gene-based methods to combine. It allows the user to arbitrarily define a set of these methods, weighting functions and probabilities of genetic variants being causal. The methods used in the framework were adapted to analyse genes with large number of SNPs to decrease the running time. The framework includes the polygene pruning procedure to guard against the influence of the strong GWAS signals outside the gene. We also present new improved matrices of correlations between the genotypes of variants within genes. These matrices estimated on a sample of 265,000 individuals are a state-of-the-art replacement of widely used matrices based on the 1000 Genomes Project data.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 48 ===
+Title: A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies
+ID: li_statistical_2025
+DOI: 10.1038/s43588-024-00764-8
+Year: 2025
+Journal: Nature computational science
+
+Large-scale whole-genome sequencing (WGS) studies have improved our understanding of the contributions of coding and noncoding rare variants to complex human traits. Leveraging association effect sizes across multiple traits in WGS rare variant association analysis can improve statistical power over single-trait analysis, and also detect pleiotropic genes and regions. Existing multi-trait methods have limited ability to perform rare variant analysis of large-scale WGS data. We propose MultiSTAAR, a statistical framework and computationally-scalable analytical pipeline for functionally-informed multi-trait rare variant analysis in large-scale WGS studies. MultiSTAAR accounts for relatedness, population structure and correlation among phenotypes by jointly analyzing multiple traits, and further empowers rare variant association analysis by incorporating multiple functional annotations. We applied MultiSTAAR to jointly analyze three lipid traits in 61,838 multi-ethnic samples from the Trans-Omics for Precision Medicine (TOPMed) Program. We discovered and replicated new associations with lipid traits missed by single-trait analysis.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 49 ===
+Title: Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole-genome sequencing studies
+ID: li_powerful_2023
+DOI: 10.1038/s41588-022-01225-6
+Year: 2023
+Journal: Nature genetics
+
+Meta-analysis of whole-genome/exome sequencing (WGS/WES) studies provides an attractive solution to the problem of collecting large sample sizes for discovering rare variants associated with complex phenotypes. Existing rare variant meta-analysis approaches are not scalable to biobank-scale WGS data. Here we present MetaSTAAR, a powerful and resource-efficient rare variant meta-analysis framework for large-scale WGS/WES studies. MetaSTAAR accounts for relatedness and population structure, can analyze both quantitative and dichotomous traits, and boosts the power of rare variant tests by incorporating multiple variant functional annotations. Through meta-analysis of four lipid traits in 30,138 ancestrally diverse samples from 14 studies of the Trans-Omics for Precision Medicine (TOPMed) Program, we show that MetaSTAAR performs rare variant meta-analysis at scale and produces results comparable to using pooled data. Additionally, we identified several conditionally significant rare variant associations with lipid traits. We further demonstrate that MetaSTAAR is scalable to biobank-scale cohorts through meta-analysis of TOPMed WGS data and UK Biobank WES data of {\textasciitilde}200,000 samples.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 50 ===
+Title: Integration of variant annotations using deep set networks boosts rare variant association testing
+ID: clarke_integration_2024
+DOI: 10.1038/s41588-024-01919-z
+Year: 2024
+Journal: Nature Genetics
+
+Rare genetic variants can have strong effects on phenotypes, yet accounting for rare variants in genetic analyses is statistically challenging due to the limited number of allele carriers and the burden of multiple testing. While rich variant annotations promise to enable well-powered rare variant association tests, methods integrating variant annotations in a data-driven manner are lacking. Here we propose deep rare variant association testing (DeepRVAT), a model based on set neural networks that learns a trait-agnostic gene impairment score from rare variant annotations and phenotypes, enabling both gene discovery and trait prediction. On 34 quantitative and 63 binary traits, using whole-exome-sequencing data from UK Biobank, we find that DeepRVAT yields substantial gains in gene discoveries and improved detection of individuals at high genetic risk. Finally, we demonstrate how DeepRVAT enables calibrated and computationally efficient rare variant tests at biobank scale, aiding the discovery of genetic risk factors for human disease traits., Deep rare variant association testing (DeepRVAT) is a deep set neural network model that flexibly integrates rare variant annotations into a trait-agnostic gene impairment score. These scores improve association testing and polygenic risk prediction.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 51 ===
+Title: Amino {Acid} {Difference} {Formula} to {Help} {Explain} {Protein} {Evolution}
+ID: grantham_amino_1974
+DOI: 10.1126/science.185.4154.862
+Year: 1974
+Journal: Science
+
+A formula for difference between amino acids combines properties that correlate best with protein residue substitution frequencies: composition, polarity, and molecular volume. Substitution frequencies agree much better with overall chemical difference between exchanging residues than with minimum base changes between their codons. Correlation coefficients show that fixation of mutations between dissimilar amino acids is generally rare.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 52 ===
+Title: Rich annotation of {DNA} sequencing variants by leveraging the {Ensembl} {Variant} {Effect} {Predictor} with plugins
+ID: yourshaw_rich_2015
+DOI: 10.1093/bib/bbu008
+Year: 2015
+Journal: Briefings in Bioinformatics
+
+High-throughput DNA sequencing has become a mainstay for the discovery of genomic variants that may cause disease or affect phenotype. A next-generation sequencing pipeline typically identifies thousands of variants in each sample. A particular challenge is the annotation of each variant in a way that is useful to downstream consumers of the data, such as clinical sequencing centers or researchers. These users may require that all data storage and analysis remain on secure local servers to protect patient confidentiality or intellectual property, may have unique and changing needs to draw on a variety of annotation data sets and may prefer not to rely on closed-source applications beyond their control. Here we describe scalable methods for using the plugin capability of the Ensembl Variant Effect Predictor to enrich its basic set of variant annotations with additional data on genes, function, conservation, expression, diseases, pathways and protein structure, and describe an extensible framework for easily adding additional custom data sets.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 53 ===
+Title: Functional mapping and annotation of genetic associations with {FUMA}
+ID: watanabe_functional_2017
+DOI: 10.1038/s41467-017-01261-5
+Year: 2017
+Journal: Nature Communications
+
+A main challenge in genome-wide association studies (GWAS) is to pinpoint possible causal variants. Results from GWAS typically do not directly translate into causal variants because the majority of hits are in non-coding or intergenic regions, and the presence of linkage disequilibrium leads to effects being statistically spread out across multiple variants. Post-GWAS annotation facilitates the selection of most likely causal variant(s). Multiple resources are available for post-GWAS annotation, yet these can be time consuming and do not provide integrated visual aids for data interpretation. We, therefore, develop FUMA: an integrative web-based platform using information from multiple biological resources to facilitate functional annotation of GWAS results, gene prioritization and interactive visualization. FUMA accommodates positional, expression quantitative trait loci (eQTL) and chromatin interaction mappings, and provides gene-based, pathway and tissue enrichment results. FUMA results directly aid in generating hypotheses that are testable in functional experiments aimed at proving causal relations.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 54 ===
+Title: Rare-{Variant} {Association} {Analysis}: {Study} {Designs} and {Statistical} {Tests}
+ID: lee_rare-variant_2014
+DOI: 10.1016/j.ajhg.2014.06.009
+Year: 2014
+Journal: The American Journal of Human Genetics
+
+Despite the extensive discovery of trait- and disease-associated common variants, much of the genetic contribution to complex traits remains unexplained. Rare variants can explain additional disease risk or trait variability. An increasing number of studies are underway to identify trait- and disease-associated rare variants. In this review, we provide an overview of statistical issues in rare-variant association studies with a focus on study designs and statistical tests. We present the design and analysis pipeline of rare-variant studies and review cost-effective sequencing designs and genotyping platforms. We compare various gene- or region-based association tests, including burden tests, variance-component tests, and combined omnibus tests, in terms of their assumptions and performance. Also discussed are the related topics of meta-analysis, population-stratification adjustment, genotype imputation, follow-up studies, and heritability due to rare variants. We provide guidelines for analysis and discuss some of the challenges inherent in these studies and future research directions.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 55 ===
+Title: Rare-variant association studies: {When} are aggregation tests more powerful than single-variant tests?
+ID: bose_rare-variant_2025
+DOI: 10.1016/j.ajhg.2025.07.002
+Year: 2025
+Journal: The American Journal of Human Genetics
+
+Because single-variant tests are not as powerful for identifying associations with rare variants as for common variants, aggregation tests pooling information from multiple rare variants within genes or other genomic regions were developed. While single-variant tests generally have yielded more associations, recent large-scale biobank studies have uncovered numerous significant findings through aggregation tests. We investigate the range of genetic models for which aggregation tests are expected to be more powerful than single-variant tests for rare-variant association studies. We consider a normally distributed trait following an additive genetic model with c causal out of v total rare variants in an autosomal gene/region with region heritability h2, measured in n independent study participants. Analytic calculations assuming independent variants, for which we developed a user-friendly online tool, show that power depends on nh2,c, and v. These analytic calculations and simulations based on 378,215 unrelated UK Biobank participants revealed that aggregation tests are more powerful than single-variant tests only when a substantial proportion of variants are causal and that power is strongly dependent on the underlying genetic model and set of rare variants aggregated. For example, if we aggregate all rare protein-truncating variants (PTVs) and deleterious missense variants, aggregation tests are more powerful than single-variant tests for {\textgreater}55\% of genes when PTVs, deleterious missense variants, and other missense variants have 80\%, 50\%, and 1\% probabilities of being causal, with n=100,000 and h2=0.1\%. With continued use of single-variant and aggregation tests in rapidly growing studies, our investigation sheds light on the situations favoring each test.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 56 ===
+Title: An {Integrated} {Encyclopedia} of {DNA} {Elements} in the {Human} {Genome}
+ID: noauthor_integrated_2012
+DOI: 10.1038/nature11247
+Year: 2012
+Journal: Nature
+
+The human genome encodes the blueprint of life, but the function of the vast majority of its nearly three billion bases is unknown. The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure, and histone modification. These data enabled us to assign biochemical functions for 80\% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elements are physically associated with one another and with expressed genes, providing new insights into the mechanisms of gene regulation. The newly identified elements also show a statistical correspondence to sequence variants linked to human disease, and can thereby guide interpretation of this variation. Overall the project provides new insights into the organization and regulation of our genes and genome, and an expansive resource of functional annotations for biomedical research.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 57 ===
+Title: {PHAST} and {RPHAST}: phylogenetic analysis with space/time models
+ID: hubisz_phast_2011
+DOI: 10.1093/bib/bbq072
+Year: 2011
+Journal: Briefings in Bioinformatics
+
+The PHylogenetic Analysis with Space/Time models (PHAST) software package consists of a collection of command-line programs and supporting libraries for comparative genomics. PHAST is best known as the engine behind the Conservation tracks in the University of California, Santa Cruz (UCSC) Genome Browser. However, it also includes several other tools for phylogenetic modeling and functional element identification, as well as utilities for manipulating alignments, trees and genomic annotations. PHAST has been in development since 2002 and has now been downloaded more than 1000 times, but so far it has been released only as provisional (‘beta’) software. Here, we describe the first official release (v1.0) of PHAST, with improved stability, portability and documentation and several new features. We outline the components of the package and detail recent improvements. In addition, we introduce a new interface to the PHAST libraries from the R statistical computing environment, called RPHAST, and illustrate its use in a series of vignettes. We demonstrate that RPHAST can be particularly useful in applications involving both large-scale phylogenomics and complex statistical analyses. The R interface also makes the PHAST libraries acccessible to non-C programmers, and is useful for rapid prototyping. PHAST v1.0 and RPHAST v1.0 are available for download at http://compgen.bscb.cornell.edu/phast, under the terms of an unrestrictive BSD-style license. RPHAST can also be obtained from the Comprehensive R Archive Network (CRAN; http://cran.r-project.org).
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 58 ===
+Title: Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes
+ID: siepel_evolutionarily_2005
+DOI: 10.1101/gr.3715005
+Year: 2005
+Journal: Genome Research
+
+We have conducted a comprehensive search for conserved elements in vertebrate genomes, using genome-wide multiple alignments of five vertebrate species (human, mouse, rat, chicken, and Fugu rubripes). Parallel searches have been performed with multiple alignments of four insect species (three species of Drosophila and Anopheles gambiae), two species of Caenorhabditis, and seven species of Saccharomyces. Conserved elements were identified with a computer program called phastCons, which is based on a two-state phylogenetic hidden Markov model (phylo-HMM). PhastCons works by fitting a phylo-HMM to the data by maximum likelihood, subject to constraints designed to calibrate the model across species groups, and then predicting conserved elements based on this model. The predicted elements cover roughly 3\%–8\% of the human genome (depending on the details of the calibration procedure) and substantially higher fractions of the more compact Drosophila melanogaster (37\%–53\%), Caenorhabditis elegans (18\%–37\%), and Saccharaomyces cerevisiae (47\%–68\%) genomes. From yeasts to vertebrates, in order of increasing genome size and general biological complexity, increasing fractions of conserved bases are found to lie outside of the exons of known protein-coding genes. In all groups, the most highly conserved elements (HCEs), by log-odds score, are hundreds or thousands of bases long. These elements share certain properties with ultraconserved elements, but they tend to be longer and less perfectly conserved, and they overlap genes of somewhat different functional categories. In vertebrates, HCEs are associated with the 3′ UTRs of regulatory genes, stable gene deserts, and megabase-sized regions rich in moderately conserved noncoding sequences. Noncoding HCEs also show strong statistical evidence of an enrichment for RNA secondary structure.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 59 ===
+Title: {CADD}-{Splice}—improving genome-wide variant effect prediction using deep learning-derived splice scores
+ID: rentzsch_cadd-spliceimproving_2021
+DOI: 10.1186/s13073-021-00835-9
+Year: 2021
+Journal: Genome Medicine
+
+Splicing of genomic exons into mRNAs is a critical prerequisite for the accurate synthesis of human proteins. Genetic variants impacting splicing underlie a substantial proportion of genetic disease, but are challenging to identify beyond those occurring at donor and acceptor dinucleotides. To address this, various methods aim to predict variant effects on splicing. Recently, deep neural networks (DNNs) have been shown to achieve better results in predicting splice variants than other strategies.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 60 ===
+Title: Identifying novel constrained elements by exploiting biased substitution patterns
+ID: garber_identifying_2009
+DOI: 10.1093/bioinformatics/btp190
+Year: 2009
+Journal: Bioinformatics
+
+Motivation: Comparing the genomes from closely related species provides a powerful tool to identify functional elements in a reference genome. Many methods have been developed to identify conserved sequences across species; however, existing methods only model conservation as a decrease in the rate of mutation and have ignored selection acting on the pattern of mutations., Results: We present a new approach that takes advantage of deeply sequenced clades to identify evolutionary selection by uncovering not only signatures of rate-based conservation but also substitution patterns characteristic of sequence undergoing natural selection. We describe a new statistical method for modeling biased nucleotide substitutions, a learning algorithm for inferring site-specific substitution biases directly from sequence alignments and a hidden Markov model for detecting constrained elements characterized by biased substitutions. We show that the new approach can identify significantly more degenerate constrained sequences than rate-based methods. Applying it to the ENCODE regions, we identify as much as 10.2\% of these regions are under selection., Availability: The algorithms are implemented in a Java software package, called SiPhy, freely available at http://www.broadinstitute.org/science/software/., Contact: xhx@ics.uci.edu, Supplementary information: Supplementary data are available at Bioinformatics online.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 61 ===
+Title: {SNAP}: predict effect of non-synonymous polymorphisms on function
+ID: bromberg_snap_2007
+DOI: 10.1093/nar/gkm238
+Year: 2007
+Journal: Nucleic Acids Research
+
+Many genetic variations are single nucleotide polymorphisms (SNPs). Non-synonymous SNPs are ‘neutral’ if the resulting point-mutated protein is not functionally discernible from the wild type and ‘non-neutral’ otherwise. The ability to identify non-neutral substitutions could significantly aid targeting disease causing detrimental mutations, as well as SNPs that increase the fitness of particular phenotypes. Here, we introduced comprehensive data sets to assess the performance of methods that predict SNP effects. Along we introduced SNAP (screening for non-acceptable polymorphisms), a neural network-based method for the prediction of the functional effects of non-synonymous SNPs. SNAP needs only sequence information as input, but benefits from functional and structural annotations, if available. In a cross-validation test on over 80 000 mutants, SNAP identified 80\% of the non-neutral substitutions at 77\% accuracy and 76\% of the neutral substitutions at 80\% accuracy. This constituted an important improvement over other methods; the improvement rose to over ten percentage points for mutants for which existing methods disagreed. Possibly even more importantly SNAP introduced a well-calibrated measure for the reliability of each prediction. This measure will allow users to focus on the most accurate predictions and/or the most severe effects. Available at http://www.rostlab.org/services/SNAP
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 62 ===
+Title: Identification of deleterious mutations within three human genomes
+ID: chun_identification_2009
+DOI: 10.1101/gr.092619.109
+Year: 2009
+Journal: Genome Research
+
+Each human carries a large number of deleterious mutations. Together, these mutations make a significant contribution to human disease. Identification of deleterious mutations within individual genome sequences could substantially impact an individual's health through personalized prevention and treatment of disease. Yet, distinguishing deleterious mutations from the massive number of nonfunctional variants that occur within a single genome is a considerable challenge. Using a comparative genomics data set of 32 vertebrate species we show that a likelihood ratio test (LRT) can accurately identify a subset of deleterious mutations that disrupt highly conserved amino acids within protein-coding sequences, which are likely to be unconditionally deleterious. The LRT is also able to identify known human disease alleles and performs as well as two commonly used heuristic methods, SIFT and PolyPhen. Application of the LRT to three human genomes reveals 796–837 deleterious mutations per individual, ∼40\% of which are estimated to be at {\textless}5\% allele frequency. However, the overlap between predictions made by the LRT, SIFT, and PolyPhen, is low; 76\% of predictions are unique to one of the three methods, and only 5\% of predictions are shared across all three methods. Our results indicate that only a small subset of deleterious mutations can be reliably identified, but that this subset provides the raw material for personalized medicine.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 63 ===
+Title: A comprehensive framework for prioritizing variants in exome sequencing studies of {Mendelian} diseases
+ID: li_comprehensive_2012
+DOI: 10.1093/nar/gkr1257
+Year: 2012
+Journal: Nucleic Acids Research
+
+Exome sequencing strategy is promising for finding novel mutations of human monogenic disorders. However, pinpointing the casual mutation in a small number of samples is still a big challenge. Here, we propose a three-level filtration and prioritization framework to identify the casual mutation(s) in exome sequencing studies. This efficient and comprehensive framework successfully narrowed down whole exome variants to very small numbers of candidate variants in the proof-of-concept examples. The proposed framework, implemented in a user-friendly software package, named KGGSeq (http://statgenpro.psychiatry.hku.hk/kggseq), will play a very useful role in exome sequencing-based discovery of human Mendelian disease genes.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 64 ===
+Title: {PON}-{P}: {Integrated} predictor for pathogenicity of missense variants
+ID: olatubosun_pon-p_2012
+DOI: 10.1002/humu.22102
+Year: 2012
+Journal: Human Mutation
+
+High-throughput sequencing data generation demands the development of methods for interpreting the effects of genomic variants. Numerous computational methods have been developed to assess the impact of variations because experimental methods are unable to cope with both the speed and volume of data generation. To harness the strength of currently available predictors, the Pathogenic-or-Not-Pipeline (PON-P) integrates five predictors to predict the probability that nonsynonymous variations affect protein function and may consequently be disease related. Random forest methodology-based PON-P shows consistently improved performance in cross-validation tests and on independent test sets, providing ternary classification and statistical reliability estimate of results. Applied to missense variants in a melanoma cancer cell line, PON-P predicts variants in 17 genes to affect protein function. Previous studies implicate nine of these genes in the pathogenesis of various forms of cancer. PON-P may thus be used as a first step in screening and prioritizing variants to determine deleterious ones for further experimentation. Hum Mutat 33:1166–1174, 2012. © 2012 Wiley Periodicals, Inc.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 65 ===
+Title: Predicting the insurgence of human genetic diseases associated to single point protein mutations with support vector machines and evolutionary information
+ID: capriotti_predicting_2006
+DOI: 10.1093/bioinformatics/btl423
+Year: 2006
+Journal: Bioinformatics
+
+Motivation: Human single nucleotide polymorphisms (SNPs) are the most frequent type of genetic variation in human population. One of the most important goals of SNP projects is to understand which human genotype variations are related to Mendelian and complex diseases. Great interest is focused on non-synonymous coding SNPs (nsSNPs) that are responsible of protein single point mutation. nsSNPs can be neutral or disease associated. It is known that the mutation of only one residue in a protein sequence can be related to a number of pathological conditions of dramatic social impact such as Altzheimer's, Parkinson's and Creutzfeldt-Jakob's diseases. The quality and completeness of presently available SNPs databases allows the application of machine learning techniques to predict the insurgence of human diseases due to single point protein mutation starting from the protein sequence.Results: In this paper, we develop a method based on support vector machines (SVMs) that starting from the protein sequence information can predict whether a new phenotype derived from a nsSNP can be related to a genetic disease in humans. Using a dataset of 21 185 single point mutations, 61\% of which are disease-related, out of 3587 proteins, we show that our predictor can reach more than 74\% accuracy in the specific task of predicting whether a single point mutation can be disease related or not. Our method, although based on less information, outperforms other web-available predictors implementing different approaches.Availability: A beta version of the web tool is available at Contact:  casadio@alma.unibo.it
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 66 ===
+Title: A three-state prediction of single point mutations on protein stability changes
+ID: capriotti_three-state_2008
+DOI: 10.1186/1471-2105-9-S2-S6
+Year: 2008
+Journal: BMC Bioinformatics
+
+A basic question of protein structural studies is to which extent mutations affect the stability. This question may be addressed starting from sequence and/or from structure. In proteomics and genomics studies prediction of protein stability free energy change (ΔΔG) upon single point mutation may also help the annotation process. The experimental ΔΔG values are affected by uncertainty as measured by standard deviations. Most of the ΔΔG values are nearly zero (about 32\% of the ΔΔG data set ranges from −0.5 to 0.5 kcal/mole) and both the value and sign of ΔΔG may be either positive or negative for the same mutation blurring the relationship among mutations and expected ΔΔG value. In order to overcome this problem we describe a new predictor that discriminates between 3 mutation classes: destabilizing mutations (ΔΔG{\textless}−1.0 kcal/mol), stabilizing mutations (ΔΔG{\textgreater}1.0 kcal/mole) and neutral mutations (−1.0≤ΔΔG≤1.0 kcal/mole).
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 67 ===
+Title: Identifying {Mendelian} disease genes with the {Variant} {Effect} {Scoring} {Tool}
+ID: carter_identifying_2013
+DOI: 10.1186/1471-2164-14-S3-S3
+Year: 2013
+Journal: BMC Genomics
+
+Whole exome sequencing studies identify hundreds to thousands of rare protein coding variants of ambiguous significance for human health. Computational tools are needed to accelerate the identification of specific variants and genes that contribute to human disease.
+
+--------------------------------------------------------------------------------
+
+=== ABSTRACT 68 ===
+Title: Probabilities of {Fitness} {Consequences} for {Point} {Mutations} {Across} the {Human} {Genome}
+ID: gulko_probabilities_2015
+DOI: 10.1038/ng.3196
+Year: 2015
+Journal: Nature genetics
+
+We describe a novel computational method for estimating the probability that a point mutation at each position in a genome will influence fitness. These fitness consequence (fitCons) scores serve as evolution-based measures of potential genomic function. Our approach is to cluster genomic positions into groups exhibiting distinct “fingerprints” based on high-throughput functional genomic data, then to estimate a probability of fitness consequences for each group from associated patterns of genetic polymorphism and divergence. We have generated fitCons scores for three human cell types based on public data from ENCODE. Compared with conventional conservation scores, fitCons scores show considerably improved prediction power for cis-regulatory elements. In addition, fitCons scores indicate that 4.2–7.5\% of nucleotides in the human genome have influenced fitness since the human-chimpanzee divergence, and they suggest that recent evolutionary turnover has had limited impact on the functional content of the genome.
+
+--------------------------------------------------------------------------------
+

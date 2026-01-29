@@ -1,0 +1,280 @@
+TITLE: Functional annotation of non-coding sequence variants
+DOI: 10.1038/nmeth.2832
+PMID: 24487584
+
+TITLE: \textit{{De} novo} pattern discovery enables robust assessment of functional consequences of non-coding variants
+DOI: 10.1093/bioinformatics/bty826
+PMID: 30256891
+
+TITLE: A {SPECTRAL} {APPROACH} {INTEGRATING} {FUNCTIONAL} {GENOMIC} {ANNOTATIONS} {FOR} {CODING} {AND} {NONCODING} {VARIANTS}
+DOI: 10.1038/ng.3477
+PMID: 26727659
+
+TITLE: Xrare: a machine learning method jointly modeling phenotypes and genetic evidence for rare disease diagnosis
+DOI: 10.1038/s41436-019-0439-8
+PMID: 30675030
+
+TITLE: Fast, scalable prediction of deleterious noncoding variants from functional and population genomic data
+DOI: 10.1038/ng.3810
+PMID: 28288115
+
+TITLE: Comparison and integration of deleteriousness prediction methods for nonsynonymous {SNVs} in whole exome sequencing studies
+DOI: 10.1093/hmg/ddu733
+PMID: 25552646
+
+TITLE: {REVEL}: {An} {Ensemble} {Method} for {Predicting} the {Pathogenicity} of {Rare} {Missense} {Variants}
+DOI: 10.1016/j.ajhg.2016.08.016
+PMID: 27666373
+
+TITLE: A general framework for estimating the relative pathogenicity of human genetic variants
+DOI: 10.1038/ng.2892
+PMID: 24487276
+
+TITLE: Ontological analysis of gene expression data: current tools, limitations, and open problems
+DOI: 10.1093/bioinformatics/bti565
+PMID: 15994189
+
+TITLE: Genetic {Factors} of the {Disease} {Course} {After} {Sepsis}: {Rare} {Deleterious} {Variants} {Are} {Predictive}
+DOI: 10.1016/j.ebiom.2016.08.037
+PMID: 27639823
+
+TITLE: Rare variant association studies: {Significance}, methods, and applications in chronic pain studies
+DOI: 10.1016/j.joca.2024.12.006
+PMID: 39725155
+
+TITLE: {ANNOVAR}: functional annotation of genetic variants from high-throughput sequencing data
+DOI: 10.1093/nar/gkq603
+PMID: 20601685
+
+TITLE: {SIFT}: predicting amino acid changes that affect protein function
+DOI: 10.1093/nar/gkg509
+PMID: 12824425
+
+TITLE: The {Ensembl} {Variant} {Effect} {Predictor}
+DOI: 10.1186/s13059-016-0974-4
+PMID: 27268795
+
+TITLE: A method and server for predicting damaging missense mutations
+DOI: 10.1038/nmeth0410-248
+PMID: 20354512
+
+TITLE: Partitioning heritability by functional annotation using genome-wide association summary statistics
+DOI: 10.1038/ng.3404
+PMID: 26414678
+
+TITLE: Annotation of functional variation in personal genomes using {RegulomeDB}
+DOI: 10.1101/gr.137323.112
+PMID: 22955989
+
+TITLE: Annotating and prioritizing human non-coding variants with {RegulomeDB} v.2
+DOI: 10.1038/s41588-023-01365-3
+PMID: 37173523
+
+TITLE: Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale
+DOI: 10.1038/s41588-020-0676-4
+PMID: 32839606
+
+TITLE: A framework for detecting noncoding rare variant associations of large-scale whole-genome sequencing studies
+DOI: 
+PMID: None
+
+TITLE: {TADA}—a machine learning tool for functional annotation-based prioritisation of pathogenic {CNVs}
+DOI: 10.1186/s13059-022-02631-z
+PMID: 35232478
+
+TITLE: An {Evaluation} of {Statistical} {Approaches} to {Rare} {Variant} {Analysis} in {Genetic} {Association} {Studies}
+DOI: 10.1002/gepi.20450
+PMID: 19810025
+
+TITLE: Genome-wide association studies
+DOI: 10.1038/s43586-021-00056-9
+PMID: None
+
+TITLE: Strategies in {Aggregation} {Tests} for {Rare} {Variants}
+DOI: 10.1002/cpz1.931
+PMID: 37988228
+
+TITLE: Methods for {Collapsing} {Multiple} {Rare} {Variants} in {Whole}‐{Genome} {Sequence} {Data}
+DOI: 10.1002/gepi.21820
+PMID: 25112183
+
+TITLE: Improving the assessment of the outcome of nonsynonymous {SNVs} with a consensus deleteriousness score, {Condel}
+DOI: 10.1016/j.ajhg.2011.03.004
+PMID: 21457909
+
+TITLE: {FATHMM}-{XF}: accurate prediction of pathogenic point mutations via extended features
+DOI: 10.1093/bioinformatics/btx536
+PMID: 28968714
+
+TITLE: Predicting the {Functional}, {Molecular}, and {Phenotypic} {Consequences} of {Amino} {Acid} {Substitutions} using {Hidden} {Markov} {Models}
+DOI: 10.1002/humu.22225
+PMID: 23033316
+
+TITLE: {MutationTaster2021}
+DOI: 10.1093/nar/gkab266
+PMID: 33893808
+
+TITLE: {GCTA}: {A} {Tool} for {Genome}-wide {Complex} {Trait} {Analysis}
+DOI: 10.1016/j.ajhg.2010.11.011
+PMID: 21167468
+
+TITLE: Population genetic models of {GERP} scores suggest pervasive turnover of constrained sites across mammalian evolution
+DOI: 10.1371/journal.pgen.1008827
+PMID: 32469868
+
+TITLE: Distribution and intensity of constraint in mammalian genomic sequence
+DOI: 10.1101/gr.3577405
+PMID: 15965027
+
+TITLE: Detection of nonneutral substitution rates on mammalian phylogenies
+DOI: 10.1101/gr.097857.109
+PMID: 19858363
+
+TITLE: Prediction tools for assessing functional impacts of gene mutations in {Clear} {Cell} {Renal} {Cell} {Carcinoma}: {A} comparative study
+DOI: 10.1016/j.compbiomed.2025.110187
+PMID: 40306016
+
+TITLE: Predicting the functional impact of protein mutations: application to cancer genomics
+DOI: 10.1093/nar/gkr407
+PMID: 21727090
+
+TITLE: Inferring the molecular and phenotypic impact of amino acid variants with {MutPred2}
+DOI: 10.1038/s41467-020-19669-x
+PMID: 33219223
+
+TITLE: Functional annotations improve the predictive score of human disease-related mutations in proteins
+DOI: 10.1002/humu.21047
+PMID: 19514061
+
+TITLE: Large-scale gene function analysis with the {PANTHER} classification system
+DOI: 10.1038/nprot.2013.092
+PMID: 23868073
+
+TITLE: {PANTHER}: {A} {Library} of {Protein} {Families} and {Subfamilies} {Indexed} by  {Function}
+DOI: 10.1101/gr.772403
+PMID: 12952881
+
+TITLE: {GAVIN}: {Gene}-{Aware} {Variant} {INterpretation} for medical sequencing
+DOI: 10.1186/s13059-016-1141-7
+PMID: 28093075
+
+TITLE: {DANN}: a deep learning approach for annotating the pathogenicity of genetic variants
+DOI: 10.1093/bioinformatics/btu703
+PMID: 25338716
+
+TITLE: Predicting the {Functional} {Effect} of {Amino} {Acid} {Substitutions} and {Indels}
+DOI: 10.1371/journal.pone.0046688
+PMID: 23056405
+
+TITLE: Predicting effects of noncoding variants with deep learning–based sequence model
+DOI: 10.1038/nmeth.3547
+PMID: 26301843
+
+TITLE: {FunSeq2}: a framework for prioritizing noncoding regulatory variants in cancer
+DOI: 10.1186/s13059-014-0480-5
+PMID: 25273974
+
+TITLE: Physicochemical constraint violation by missense substitutions mediates impairment of protein function and disease severity
+DOI: 10.1101/gr.3804205
+PMID: 15965030
+
+TITLE: {CHASM} and {SNVBox}: toolkit for detecting biologically important single nucleotide mutations in cancer
+DOI: 10.1093/bioinformatics/btr357
+PMID: 21685053
+
+TITLE: Prioritization of driver mutations in pancreatic cancer using cancer-specific high-throughput annotation of somatic mutations ({CHASM})
+DOI: 10.4161/cbt.10.6.12537
+PMID: 20581473
+
+TITLE: Large-scale analysis of non-synonymous coding region single nucleotide polymorphisms
+DOI: 10.1093/bioinformatics/bth029
+PMID: 14751981
+
+TITLE: {sumSTAAR}: {A} flexible framework for gene-based association studies using {GWAS} summary statistics
+DOI: 10.1371/journal.pcbi.1010172
+PMID: 35653402
+
+TITLE: A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies
+DOI: 10.1038/s43588-024-00764-8
+PMID: 39920506
+
+TITLE: Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole-genome sequencing studies
+DOI: 10.1038/s41588-022-01225-6
+PMID: 36564505
+
+TITLE: Integration of variant annotations using deep set networks boosts rare variant association testing
+DOI: 10.1038/s41588-024-01919-z
+PMID: 39322779
+
+TITLE: Amino {Acid} {Difference} {Formula} to {Help} {Explain} {Protein} {Evolution}
+DOI: 10.1126/science.185.4154.862
+PMID: 4843792
+
+TITLE: Rich annotation of {DNA} sequencing variants by leveraging the {Ensembl} {Variant} {Effect} {Predictor} with plugins
+DOI: 10.1093/bib/bbu008
+PMID: 24626529
+
+TITLE: Functional mapping and annotation of genetic associations with {FUMA}
+DOI: 10.1038/s41467-017-01261-5
+PMID: 29184056
+
+TITLE: Rare-{Variant} {Association} {Analysis}: {Study} {Designs} and {Statistical} {Tests}
+DOI: 10.1016/j.ajhg.2014.06.009
+PMID: 24995866
+
+TITLE: Rare-variant association studies: {When} are aggregation tests more powerful than single-variant tests?
+DOI: 10.1016/j.ajhg.2025.07.002
+PMID: 40738106
+
+TITLE: An {Integrated} {Encyclopedia} of {DNA} {Elements} in the {Human} {Genome}
+DOI: 10.1038/nature11247
+PMID: 22955616
+
+TITLE: {PHAST} and {RPHAST}: phylogenetic analysis with space/time models
+DOI: 10.1093/bib/bbq072
+PMID: 21278375
+
+TITLE: Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes
+DOI: 10.1101/gr.3715005
+PMID: 16024819
+
+TITLE: {CADD}-{Splice}—improving genome-wide variant effect prediction using deep learning-derived splice scores
+DOI: 10.1186/s13073-021-00835-9
+PMID: 33618777
+
+TITLE: Identifying novel constrained elements by exploiting biased substitution patterns
+DOI: 10.1093/bioinformatics/btp190
+PMID: 19478016
+
+TITLE: {SNAP}: predict effect of non-synonymous polymorphisms on function
+DOI: 10.1093/nar/gkm238
+PMID: 17526529
+
+TITLE: Identification of deleterious mutations within three human genomes
+DOI: 10.1101/gr.092619.109
+PMID: 19602639
+
+TITLE: A comprehensive framework for prioritizing variants in exome sequencing studies of {Mendelian} diseases
+DOI: 10.1093/nar/gkr1257
+PMID: 22241780
+
+TITLE: {PON}-{P}: {Integrated} predictor for pathogenicity of missense variants
+DOI: 10.1002/humu.22102
+PMID: 22505138
+
+TITLE: Predicting the insurgence of human genetic diseases associated to single point protein mutations with support vector machines and evolutionary information
+DOI: 10.1093/bioinformatics/btl423
+PMID: 16895930
+
+TITLE: A three-state prediction of single point mutations on protein stability changes
+DOI: 10.1186/1471-2105-9-s2-s6
+PMID: 18387208
+
+TITLE: Identifying {Mendelian} disease genes with the {Variant} {Effect} {Scoring} {Tool}
+DOI: 10.1186/1471-2164-14-s3-s3
+PMID: 23819870
+
+TITLE: Probabilities of {Fitness} {Consequences} for {Point} {Mutations} {Across} the {Human} {Genome}
+DOI: 10.1038/ng.3196
+PMID: 25599402
+
