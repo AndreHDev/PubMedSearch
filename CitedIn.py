@@ -3,6 +3,7 @@ from BibTexAPI import *
 
 from time import sleep
 
+#scores
 pmids = [
     "38183205", "33618777", "30371827", "24487276",
     "25338716",
@@ -55,11 +56,6 @@ AND ((pain OR painful)) OR orchialgia OR analgesi* OR fibromyalgia OR pain*)
 
 # Open a file for writing
 with open("results.txt", "w", encoding="utf-8") as f:
-
-    print("Searching PubMed for pain query…", file=f)
-    pain_pmids = search_pubmed(pain_query)
-    print(f"Total results for pain query: {len(pain_pmids)}", file=f)
-    print("------", file=f)
 
     all_citing_matching_pain = {}
 
