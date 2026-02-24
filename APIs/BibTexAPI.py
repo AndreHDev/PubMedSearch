@@ -28,8 +28,6 @@ def get_bib_entries(bib_path):
         bib_database = bibtexparser.load(bibtex_file)
     return bib_database.entries
 
-import bibtexparser
-
 def get_metadata_from_bib(bib_path):
     with open(bib_path) as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)

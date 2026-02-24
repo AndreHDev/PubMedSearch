@@ -1,6 +1,6 @@
 
-from PubMedAPI import *
-from BibTexAPI import *
+from APIs.PubMedAPI import *
+from APIs.BibTexAPI import *
 
 bibtex_path = "/home/andre/Downloads/GWAVA FeasbilityPain.bib"
 

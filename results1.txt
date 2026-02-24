@@ -1,46 +1,46 @@
 PMID 38183205:
   Citing papers found: 187
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 33618777:
   Citing papers found: 377
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 4
 ------
 PMID 30371827:
   Citing papers found: 2073
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 17
 ------
 PMID 24487276:
   Citing papers found: 3732
-  Amount of citing papers matching pain query: 3
+  Amount of citing papers matching pain query: 31
 ------
 PMID 33618777:
   Citing papers found: 377
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 4
 ------
 PMID 25338716:
   Citing papers found: 555
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 26727659:
   Citing papers found: 366
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 26727659:
   Citing papers found: 366
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 27666373:
   Citing papers found: 1548
-  Amount of citing papers matching pain query: 3
+  Amount of citing papers matching pain query: 10
 ------
 PMID 25552646:
   Citing papers found: 664
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 6
 ------
 PMID 25552646:
   Citing papers found: 664
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 6
 ------
 PMID 36209109:
   Citing papers found: 94
@@ -48,23 +48,23 @@ PMID 36209109:
 ------
 PMID 20354512:
   Citing papers found: 7554
-  Amount of citing papers matching pain query: 2
+  Amount of citing papers matching pain query: 43
 ------
 PMID 23056405:
   Citing papers found: 1540
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 10
 ------
 PMID 21727090:
   Citing papers found: 1169
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 21152010:
   Citing papers found: 1031
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 4
 ------
 PMID 19858363:
   Citing papers found: 1407
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 25599402:
   Citing papers found: 175
@@ -76,15 +76,15 @@ PMID 28288115:
 ------
 PMID 24487584:
   Citing papers found: 324
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 22955989:
   Citing papers found: 1723
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 36
 ------
 PMID 28968714:
   Citing papers found: 263
-  Amount of citing papers matching pain query: 2
+  Amount of citing papers matching pain query: 11
 ------
 PMID 25583119:
   Citing papers found: 400
@@ -92,15 +92,15 @@ PMID 25583119:
 ------
 PMID 23033316:
   Citing papers found: 774
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 28985712:
   Citing papers found: 24
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 21457909:
   Citing papers found: 464
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 30256891:
   Citing papers found: 13
@@ -108,15 +108,15 @@ PMID 30256891:
 ------
 PMID 33893808:
   Citing papers found: 173
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 24681721:
   Citing papers found: 2058
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 15
 ------
 PMID 20676075:
   Citing papers found: 1658
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 7
 ------
 PMID 28093075:
   Citing papers found: 39
@@ -124,19 +124,19 @@ PMID 28093075:
 ------
 PMID 34717010:
   Citing papers found: 1047
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 4
 ------
 PMID 12952881:
   Citing papers found: 1633
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 15
 ------
 PMID 27193693:
   Citing papers found: 161
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 3
 ------
 PMID 33219223:
   Citing papers found: 462
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 3
 ------
 PMID 19734154:
   Citing papers found: 395
@@ -148,7 +148,7 @@ PMID 15965030:
 ------
 PMID 26301843:
   Citing papers found: 1018
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 30013180:
   Citing papers found: 307
@@ -160,15 +160,15 @@ PMID 33462483:
 ------
 PMID 16024819:
   Citing papers found: 2478
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 5
 ------
 PMID 19478016:
   Citing papers found: 226
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 17526529:
   Citing papers found: 448
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 22241780:
   Citing papers found: 131
@@ -180,11 +180,11 @@ PMID 22505138:
 ------
 PMID 19602639:
   Citing papers found: 663
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 3
 ------
 PMID 16895930:
   Citing papers found: 409
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 18387208:
   Citing papers found: 145
@@ -200,7 +200,7 @@ PMID 23819870:
 ------
 PMID 26213851:
   Citing papers found: 1030
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 27197224:
   Citing papers found: 483
@@ -212,39 +212,39 @@ PMID 29588361:
 ------
 PMID 11337480:
   Citing papers found: 1414
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 5
 ------
 PMID 22689647:
   Citing papers found: 1312
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 11
 ------
 PMID 12824425:
   Citing papers found: 3176
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 17
 ------
 PMID 27776117:
   Citing papers found: 462
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 6
 ------
 PMID 4843792:
   Citing papers found: 969
-  Amount of citing papers matching pain query: 2
+  Amount of citing papers matching pain query: 4
 ------
 PMID 37733863:
   Citing papers found: 916
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 5
 ------
 PMID 1438297:
   Citing papers found: 2183
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 30661751:
   Citing papers found: 1441
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 2
 ------
 PMID 30220433:
   Citing papers found: 139
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 33479230:
   Citing papers found: 97
@@ -268,7 +268,7 @@ PMID 28851873:
 ------
 PMID 27995669:
   Citing papers found: 155
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 32352516:
   Citing papers found: 55
@@ -306,7 +306,7 @@ PMID 41286104:
 ------
 PMID 34707284:
   Citing papers found: 388
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 28092658:
   Citing papers found: 361
@@ -322,7 +322,7 @@ PMID 37550700:
 ------
 PMID 37084271:
   Citing papers found: 34
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 35453737:
   Citing papers found: 2
@@ -406,7 +406,7 @@ PMID 30475984:
 ------
 PMID 15285897:
   Citing papers found: 1198
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 2
 ------
 PMID 14695534:
   Citing papers found: 86
@@ -434,7 +434,7 @@ PMID 32101277:
 ------
 PMID 30804562:
   Citing papers found: 39
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 35079159:
   Citing papers found: 3
@@ -474,7 +474,7 @@ PMID 32938008:
 ------
 PMID 26075791:
   Citing papers found: 279
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 33686085:
   Citing papers found: 40
@@ -514,7 +514,7 @@ PMID 30704475:
 ------
 PMID 34850938:
   Citing papers found: 17
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 33866367:
   Citing papers found: 12
@@ -526,7 +526,7 @@ PMID 33603233:
 ------
 PMID 34608324:
   Citing papers found: 557
-  Amount of citing papers matching pain query: 0
+  Amount of citing papers matching pain query: 1
 ------
 PMID 39779956:
   Citing papers found: 73
@@ -546,7 +546,7 @@ PMID 41606153:
 ------
 PMID 37733863:
   Citing papers found: 916
-  Amount of citing papers matching pain query: 1
+  Amount of citing papers matching pain query: 5
 ------
 All unique PMIDs from citing papers matching pain query:
-36150100 39457051 24013571 41578410 40736211 40034785 38697125 37079850 34446064 32084423
+40786508 39629963 25637381 38036545 36778285 40034785 35355568 33034629 41174146 18672213 25370144 35048719 28564610 32587327 28541271 37347055 36719378 40891852 41576141 28398354 24013571 29596157 36291662 35658515 36282598 29117254 30467200 34573316 26289589 35523946 33083721 37079850 25980904 26584642 40778174 26669972 36150100 41321063 39979466 40097369 31163085 30526509 36552490 35608290 33713608 40892855 40205036 36309697 31649062 38231408 36630088 37926851 28081267 33971305 32014024 26537056 39132487 34854908 38197553 40835838 39004388 34465876 23793025 31403081 39540058 30788684 33790770 20130076 34593020 25585702 36201451 25885757 37841434 28742282 22703880 35117655 36167888 33564012 31226929 34646402 37300737 40392407 32784915 35204551 36012602 25829447 38328016 36751502 34446064 37351650 41257970 28724990 30971809 31996705 19830424 37986848 31138708 29258992 28741447 26810133 38598614 38867047 38503741 41513650 30150364 36156899 28498854 36212588 40736211 39592878 34646120 41028104 39925621 31070020 39408704 41578410 35710757 21559944 14525927 41015688 38394191 38674343 33663550 38530364 38631813 24669931 29910097 37154182 30289745 36910591 39457051 38697125 25741863 33087732 40593539 35392631 29237731 41400902 40399555 37919453 25381065 30971208 36779069 36648066 28068329 28447608 35093948 31217010 31118289 35776183 36532681 25941480 36142893 40931078 38737299 26005867 30135305 35723634 30747904 29541207 40431601 39994562 35949357 25709655 40206634 30261039 39574859 40894051 27977335 26686525 32084423 40151298 37703430 26791940 24427140 35315241 37106738 31824479 28742099 39129823 38427496
