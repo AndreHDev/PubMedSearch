@@ -1,7 +1,8 @@
 from APIs.PubMedAPI import *
+import datetime
+import os
+
 #from BibTexAPI import *
-
-
 
 # all scores from paper
 score_pmids = [
@@ -25,6 +26,27 @@ score_pmids = [
     "35449021","41606153", "37733863"
 ]
 
+RVAT_pmids = [
+    "18691683",
+    "22441326",
+    "17101154",
+    "19810025",
+    "19214210",
+    "20413981",
+    "21072163",
+    "21885029",
+    "20471002",
+    "21304886",
+    "21304886",
+    "21737059",
+    "19170135",
+    "21408211",
+    "22699862",
+    "23032573",
+    "23483651",
+    "23159251"
+]
+
 # Pain–related query string
 pain_query = """(
 ((chronic) OR (persisting) OR (persistent) OR (lasting) OR (neuropathic) OR 
@@ -32,50 +54,65 @@ pain_query = """(
 (migraine) OR (arthritis) OR (osteoart*) OR (joint) OR (rheumatic) OR 
 (inflammatory) OR (musculoskeletal) OR (muscle) OR (visceral) OR (widespread) OR 
 (somatoform) OR (cancer) OR (postoperative) OR (postsurgic*) OR (perioperative))
-AND ((pain OR painful)) OR orchialgia OR analgesi* OR fibromyalgia) 
+AND (pain OR painful) OR orchialgia OR analgesi* OR fibromyalgia) 
 """
 
-pain_query2 = """(
+pain_query2 = """
+(
 (((chronic) OR (persisting) OR (persistent) OR (lasting) OR (neuropathic) OR (nociceptive) OR (nociplastic)
 OR (mixed) OR (neurogenic) OR (back) OR (neck) OR (migraine) OR (arthritis) OR (osteoart*) OR (joint) OR 
 (rheumatic) OR (inflammatory) OR (musculoskeletal) OR (muscle) OR (visceral) OR (widespread) OR (somatoform)
 OR (cancer) OR (postoperative) OR (postsurgic*) OR (perioperative)) AND (pain OR painful) OR orchialgia OR 
 analgesi* OR fibromyalgia) AND ("rare variant" OR "rare variants" OR "rare genetic variant")
 )
-
 """
 
-# Open a file for writing
-with open("results.txt", "w", encoding="utf-8") as f:
+def get_citing_papers_matching_pain(pmids, query):
+    # Create a timestamped results file inside the Results directory
+    RESULTS_DIR = "Results"
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    results_fname = f"results_{ts}.txt"
+    results_path = os.path.join(RESULTS_DIR, results_fname)
+    print(f"Writing results to {results_path}")
 
-    all_citing_matching_pain = {}
+    with open(results_path, "w", encoding="utf-8") as f:
+        print("Getting papers that cite given PMIDS and maching query.", file=f)
+        print(f"Query: {query}", file=f)
+        print(f"PMIDs to check: {pmids}", file=f)
 
-    for pmid in score_pmids:
-        citing_pmids = get_citing_pmids(pmid)
+        all_citing_matching_pain = {}
 
-        if not citing_pmids:
-            print(f"PMID {pmid}: No citing papers found", file=f)
-            continue
+        for pmid in pmids:
+            citing_pmids = get_citing_pmids(pmid)
 
-        # Build query like manual PubMed search
-        combined_query = pain_query2 + " " + " ".join(citing_pmids)
+            if not citing_pmids:
+                print(f"PMID {pmid}: No citing papers found", file=f)
+                continue
 
-        match_pmids = search_pubmed(combined_query)
+            # Build query like manual PubMed search
+            combined_query = query + " AND " + "(" + " ".join(citing_pmids) + ")"
+            # Remove newlines for PubMed search
+            combined_query = combined_query.replace("\n", "")  
 
-        print(f"PMID {pmid}:", file=f)
-        print(f"  Citing papers found: {len(citing_pmids)}", file=f)
-        print(f"  Amount of citing papers matching pain query: {len(match_pmids)}", file=f)
-        all_citing_matching_pain[pmid] = match_pmids
-        print("------", file=f)
+            match_pmids = search_pubmed(combined_query)
 
-    # Collect all PMIDs into a single set to remove duplicates
-    all_pmids = set()
-    for match_pmids in all_citing_matching_pain.values():
-        all_pmids.update(match_pmids)  # add all PMIDs from the set
+            print(f"PMID {pmid}:", file=f)
+            print(f"  Citing papers found: {len(citing_pmids)}", file=f)
+            print(f"  Amount of citing papers matching pain query: {len(match_pmids)}", file=f)
+            all_citing_matching_pain[pmid] = match_pmids
+            print("------", file=f)
 
-    # Join into a simple string with spaces
-    all_pmids_str = " ".join(all_pmids)
+        # Collect all PMIDs into a single set to remove duplicates
+        all_pmids = set()
+        for match_pmids in all_citing_matching_pain.values():
+            all_pmids.update(match_pmids)  # add all PMIDs from the set
 
-    # Write to file
-    print("All unique PMIDs from citing papers matching pain query:", file=f)
-    f.write(all_pmids_str + "\n")
+        # Join into a simple string with spaces
+        all_pmids_str = " ".join(all_pmids)
+
+        # Write to file
+        print("All unique PMIDs from citing papers matching pain query:", file=f)
+        f.write(all_pmids_str + "\n")
+
+get_citing_papers_matching_pain(RVAT_pmids, pain_query)
