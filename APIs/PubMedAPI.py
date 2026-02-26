@@ -5,6 +5,7 @@ from time import sleep
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 ELINK_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi"
+EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
 # Search pubmed with a general querry
 @txt_cache()
@@ -75,3 +76,66 @@ def get_citing_pmids(pmid, api_key=None):
     ]
 
     return citing_pmids
+
+# Get titles and abstracts for a list of PubMed IDs
+@txt_cache()
+def get_titles_and_abstracts(pmids, api_key=None):
+    """
+    Fetches titles and abstracts for a list of PubMed IDs.
+    
+    Args:
+        pmids: List of PubMed IDs
+        api_key: Optional NCBI API key for faster requests
+        
+    Returns:
+        List of dictionaries with keys: pmid, title, abstract
+    """
+    if not pmids:
+        return []
+    
+    sleep(1)  # rate limit
+    
+    # Join pmids as comma-separated string
+    id_string = ",".join(str(pmid) for pmid in pmids)
+    
+    params = {
+        "db": "pubmed",
+        "id": id_string,
+        "retmode": "xml",
+        "rettype": "medline"
+    }
+    
+    if api_key:
+        params["api_key"] = api_key
+    
+    response = requests.get(EFETCH_URL, params=params)
+    response.raise_for_status()
+    
+    root = ET.fromstring(response.text)
+    
+    results = []
+    for pubmed_article in root.findall(".//PubmedArticle"):
+        # Extract PMID
+        pmid_elem = pubmed_article.find(".//PMID")
+        pmid = pmid_elem.text if pmid_elem is not None else None
+        
+        # Extract title
+        title_elem = pubmed_article.find(".//ArticleTitle")
+        title = title_elem.text if title_elem is not None else None
+        
+        # Extract abstract
+        abstract_elem = pubmed_article.find(".//Abstract")
+        if abstract_elem is not None:
+            # Concatenate all abstract text elements
+            abstract_parts = [elem.text for elem in abstract_elem.findall(".//AbstractText") if elem.text]
+            abstract = " ".join(abstract_parts) if abstract_parts else None
+        else:
+            abstract = None
+        
+        results.append({
+            "pmid": pmid,
+            "title": title,
+            "abstract": abstract
+        })
+    
+    return results

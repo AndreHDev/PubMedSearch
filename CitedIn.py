@@ -27,34 +27,25 @@ score_pmids = [
 ]
 
 RVAT_pmids = [
-    "18691683",
-    "22441326",
-    "17101154",
-    "19810025",
-    "19214210",
-    "20413981",
-    "21072163",
-    "21885029",
-    "20471002",
-    "21304886",
-    "21304886",
-    "21737059",
-    "19170135",
-    "21408211",
-    "22699862",
-    "23032573",
-    "23483651",
-    "23159251"
+    '22441326', '17101154', '18691683', '19810025', '19214210', 
+    '20413981', '21072163', '21885029', '20471002', '21304886', 
+    '21304886', '21737059', '19170135', '21408211', '22699862', 
+    '23032573', '23483651', '23159251', '29932245', '29754769', 
+    '21368279', '21368279', '18691683', '20413981', '29754769', 
+    '30849328', '24831820', '32839606', '35653402', '21070896', 
+    '22009789'
 ]
 
 # Pain–related query string
-pain_query = """(
-((chronic) OR (persisting) OR (persistent) OR (lasting) OR (neuropathic) OR 
-(nociceptive) OR (nociplastic) OR (mixed) OR (neurogenic) OR (back) OR (neck) OR 
-(migraine) OR (arthritis) OR (osteoart*) OR (joint) OR (rheumatic) OR 
-(inflammatory) OR (musculoskeletal) OR (muscle) OR (visceral) OR (widespread) OR 
-(somatoform) OR (cancer) OR (postoperative) OR (postsurgic*) OR (perioperative))
-AND (pain OR painful) OR orchialgia OR analgesi* OR fibromyalgia) 
+pain_query = """
+( 
+(chronic OR persisting OR persistent OR lasting OR neuropathic OR nociceptive OR nociplastic OR 
+mixed OR neurogenic OR back OR neck OR migraine OR arthritis OR osteoart* OR joint OR rheumatic OR 
+inflammatory OR musculoskeletal OR muscle OR visceral OR widespread OR somatoform OR cancer OR 
+postoperative OR postsurgic* OR perioperative)
+AND 
+(pain OR painful OR orchialgia OR analgesi* OR fibromyalgia) 
+)
 """
 
 pain_query2 = """
